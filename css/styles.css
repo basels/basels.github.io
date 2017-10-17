@@ -1,0 +1,39 @@
+@import url("font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #7c7c7c;
+}
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.glyphicon {
+  color: $c-pinky;
+  vertical-align: middle;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  &:hover {
+    opacity: 0.7;
+  }
+}
