@@ -40,6 +40,16 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #7c7c7c;
+}
+
+#rcorners {
+  border-radius: 25px;
+  border: 2px solid #33cccc;
 }
 
 #logo_h2 {
