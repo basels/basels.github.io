@@ -37,19 +37,29 @@ h2 {
   color: #7c7c7c;
 }
 
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+h3 {
+  font-size: 1.5em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
   color: #7c7c7c;
 }
 
-#rcorners {
+p {
+  font-size: 0.8em;
+  letter-spacing: 0px;
+  text-align: center;
+  font-weight: normal;
+  color: #7c7c7c;
+}
+
+.badge-inverse {
+  background-color: #333333;
+}
+
+#photorcorners {
   border-radius: 25px;
-  border: 2px solid #33cccc;
+  border: 1px solid #33cccc;
 }
 
 #logo_h2 {
