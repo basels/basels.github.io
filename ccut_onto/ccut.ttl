@@ -19,6 +19,7 @@ ccut:atomicUnit a rdfs:Class ;
     ccut:prefixConversionMultiplier xsd:double ;
     ccut:prefixConversionOffset     xsd:double ;
     ccut:exponent                   xsd:double ;
+    ccut:multiplier                 xsd:double ;
     ccut:hasDimension               xsd:string .
 
 ccut:compoundUnit a rdfs:Class ;
@@ -56,4 +57,9 @@ ccut:prefixConversionOffset a rdf:Property ;
 ccut:exponent a rdf:Property ;
     rdfs:label      "Exponent"@en ;
     rdfs:comment    "Associates an exponent (dimension exponent) to some atomic unit"@en ;
+    rdfs:range      xsd:double .
+
+ccut:multiplier a rdf:Property ;
+    rdfs:label      "Multiplier"@en ;
+    rdfs:comment    "Associates a multiplier (dimension prefix multiplier) to some atomic unit"@en ;
     rdfs:range      xsd:double .
