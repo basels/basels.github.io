@@ -1,0 +1,65 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix ccut:  <https://basels.github.io/ccut_onto/ccut.ttl#> .
+@prefix qudtp: <http://www.qudt.org/qudt/owl/1.0.0/qudt/Properties.html#> .
+@prefix qudtu: <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#> .
+@prefix qudt:  <http://www.qudt.org/qudt/owl/1.0.0/qudt/#> .
+
+
+ccut:atomicUnit a rdfs:Class ;
+    rdfs:label                      “Atomic Unit”@en ;
+    rdfs:comment                    “”@en ;
+    qudtp:symbol                    xsd:string ;
+    qudtp:conversionMultiplier      xsd:double ;
+    qudtp:conversionOffset          xsd:double ;
+    qudtp:quantityKind              qudt:QuantityKind ;
+    ccut:prefix                     qudt:QuantityKind ;
+    ccut:prefixConversionMultiplier xsd:double ;
+    ccut:prefixConversionOffset     xsd:double ;
+    ccut:exponent                   xsd:double ;
+    ccut:hasDimension               xsd:string .
+
+ccut:compoundUnit a rdfs:Class ;
+    rdfs:label                      “Compound Unit”@en ;
+    rdfs:comment                    “”@en ;
+    qudtp:abbreviation              xsd:string ;
+    ccut:hasPart                    ccut:atomicUnit ;
+    ccut:hasDimension               xsd:string .
+
+# was qudt:hasDimension 
+ccut:hasDimension a rdf:Property ;
+    rdfs:label      “Has Dimension”@en 
+    rdfs:comment    “”@en ;
+    rdfs:range      xsd:string .
+
+# was qudt:_hasPart_ 
+ccut:hasPart a rdf:Property ;
+    rdfs:label      “Has Part"@en ;
+    rdfs:comment    “”@en ;
+    rdfs:range      ccut:atomicUnit .
+
+# was UNK:prefix
+ccut:prefix a rdf:Property ;
+    rdfs:label      “Prefix"@en ;
+    rdfs:comment    “”@en ;
+    rdfs:range      qudt:QuantityKind .
+
+# was UNK:prefix_conversion_multiplier
+ccut:prefixConversionMultiplier a rdf:Property ;
+    rdfs:label      “Prefix Conversion Multiplier"@en ;
+    rdfs:comment    “”@en ;
+    rdfs:range      xsd:double .
+
+# was UNK:prefix_conversion_offset
+ccut:prefixConversionOffset a rdf:Property ;
+    rdfs:label      “Prefix Conversion Offset"@en ;
+    rdfs:comment    “”@en ;
+    rdfs:range      xsd:double .
+
+# was UNK:exponent
+ccut:exponent a rdf:Property ;
+    rdfs:label      “Exponent"@en ;
+    rdfs:comment    “”@en ;
+    rdfs:range      xsd:double .
