@@ -9,8 +9,8 @@
 
 
 ccut:atomicUnit a rdfs:Class ;
-    rdfs:label                      “Atomic Unit”@en ;
-    rdfs:comment                    “”@en ;
+    rdfs:label                      "Atomic Unit"@en ;
+    rdfs:comment                    "A class to represent a single unit symbol which may be modified by additional elements such as exponents or prefixes"@en ;
     qudtp:symbol                    xsd:string ;
     qudtp:conversionMultiplier      xsd:double ;
     qudtp:conversionOffset          xsd:double ;
@@ -22,44 +22,38 @@ ccut:atomicUnit a rdfs:Class ;
     ccut:hasDimension               xsd:string .
 
 ccut:compoundUnit a rdfs:Class ;
-    rdfs:label                      “Compound Unit”@en ;
-    rdfs:comment                    “”@en ;
+    rdfs:label                      "Compound Unit"@en ;
+    rdfs:comment                    "A class to represent a complex unit that is composed from two or more atomic units with some relationship between them"@en ;
     qudtp:abbreviation              xsd:string ;
     ccut:hasPart                    ccut:atomicUnit ;
     ccut:hasDimension               xsd:string .
 
-# was qudt:hasDimension 
 ccut:hasDimension a rdf:Property ;
-    rdfs:label      “Has Dimension”@en 
-    rdfs:comment    “”@en ;
+    rdfs:label      "Has Dimension"@en ;
+    rdfs:comment    "Associates an atomic or compound unit with a dimension string"@en ;
     rdfs:range      xsd:string .
 
-# was qudt:_hasPart_ 
 ccut:hasPart a rdf:Property ;
-    rdfs:label      “Has Part"@en ;
-    rdfs:comment    “”@en ;
+    rdfs:label      "Has Part"@en ;
+    rdfs:comment    "Associates a compound unit with atomic units that compose it"@en ;
     rdfs:range      ccut:atomicUnit .
 
-# was UNK:prefix
 ccut:prefix a rdf:Property ;
-    rdfs:label      “Prefix"@en ;
-    rdfs:comment    “”@en ;
+    rdfs:label      "Prefix"@en ;
+    rdfs:comment    "Associates an SI (International System of Units) Prefix URI to some atomic unit"@en ;
     rdfs:range      qudt:QuantityKind .
 
-# was UNK:prefix_conversion_multiplier
 ccut:prefixConversionMultiplier a rdf:Property ;
-    rdfs:label      “Prefix Conversion Multiplier"@en ;
-    rdfs:comment    “”@en ;
+    rdfs:label      "Prefix Conversion Multiplier"@en ;
+    rdfs:comment    "Associates an SI (International System of Units) Prefix Multiplier to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-# was UNK:prefix_conversion_offset
 ccut:prefixConversionOffset a rdf:Property ;
-    rdfs:label      “Prefix Conversion Offset"@en ;
-    rdfs:comment    “”@en ;
+    rdfs:label      "Prefix Conversion Offset"@en ;
+    rdfs:comment    "Associates an SI (International System of Units) Prefix Offset to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-# was UNK:exponent
 ccut:exponent a rdf:Property ;
-    rdfs:label      “Exponent"@en ;
-    rdfs:comment    “”@en ;
+    rdfs:label      "Exponent"@en ;
+    rdfs:comment    "Associates an exponent (dimension exponent) to some atomic unit"@en ;
     rdfs:range      xsd:double .
