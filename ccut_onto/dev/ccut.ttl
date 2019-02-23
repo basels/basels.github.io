@@ -2,14 +2,14 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml:   <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix ccut:  <https://w3id.org/mint/ccut#> .
 @prefix qudtp: <http://www.qudt.org/qudt/owl/1.0.0/qudt/Properties.html#> .
 @prefix qudtu: <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#> .
 @prefix qudt:  <http://www.qudt.org/qudt/owl/1.0.0/qudt/#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix :      <https://w3id.org/mint/ccut#> .
+@base          <https://w3id.org/mint/ccut> .
 
-<https://w3id.org/mint/ccut#> a owl:Ontology;
-    owl:versionIRI <https://w3id.org/enigma/cohort/1.0.0> ;
+<https://w3id.org/mint/ccut> rdf:type owl:Ontology;
     <http://purl.org/dc/terms/creator> "Basel Shbita",
                                        "Arunkumar Rajendran",
                                        "Jay Pujara" ;
@@ -20,58 +20,45 @@
     rdfs:comment "An ontology that describes units of measure for the MINT project" ;
     owl:versionInfo "v1.0.0" .
 
-ccut:atomicUnit a rdfs:Class ;
+:AtomicUnit rdf:type owl:Class ;
     rdfs:label                      "Atomic Unit"@en ;
-    rdfs:comment                    "A class to represent a single unit symbol which may be modified by additional elements such as exponents or prefixes"@en ;
-    qudtp:symbol                    xsd:string ;
-    qudtp:conversionMultiplier      xsd:double ;
-    qudtp:conversionOffset          xsd:double ;
-    qudtp:quantityKind              qudt:QuantityKind ;
-    ccut:prefix                     qudt:QuantityKind ;
-    ccut:prefixConversionMultiplier xsd:double ;
-    ccut:prefixConversionOffset     xsd:double ;
-    ccut:exponent                   xsd:double ;
-    ccut:multiplier                 xsd:double ;
-    ccut:hasDimension               xsd:string .
+    rdfs:comment                    "A class to represent rdf:type single unit symbol which may be modified by additional elements such as exponents or prefixes"@en .
 
-ccut:compoundUnit a rdfs:Class ;
+:CompoundUnit rdf:type owl:Class ;
     rdfs:label                      "Compound Unit"@en ;
-    rdfs:comment                    "A class to represent a complex unit that is composed from two or more atomic units with some relationship between them"@en ;
-    qudtp:abbreviation              xsd:string ;
-    ccut:hasPart                    ccut:atomicUnit ;
-    ccut:hasDimension               xsd:string .
+    rdfs:comment                    "A class to represent rdf:type complex unit that is composed from two or more atomic units with some relationship between them"@en .
 
-ccut:hasDimension a owl:DatatypeProperty ;
+:hasDimension rdf:type owl:DatatypeProperty ;
     rdfs:label      "Has Dimension"@en ;
-    rdfs:comment    "Associates an atomic or compound unit with a dimension string"@en ;
+    rdfs:comment    "Associates an atomic or compound unit with rdf:type dimension string"@en ;
     rdfs:range      xsd:string .
 
-ccut:hasPart a owl:ObjectProperty ;
+:hasPart rdf:type owl:ObjectProperty ;
     rdfs:label      "Has Part"@en ;
-    rdfs:comment    "Associates a compound unit with atomic units that compose it"@en ;
-    rdfs:range      ccut:atomicUnit .
+    rdfs:comment    "Associates rdf:type compound unit with atomic units that compose it"@en ;
+    rdfs:range      :AtomicUnit .
 
-ccut:prefix a owl:ObjectProperty ;
+:prefix rdf:type owl:ObjectProperty ;
     rdfs:label      "Prefix"@en ;
     rdfs:comment    "Associates an SI (International System of Units) Prefix URI to some atomic unit"@en ;
     rdfs:range      qudt:QuantityKind .
 
-ccut:prefixConversionMultiplier a owl:DatatypeProperty ;
+:prefixConversionMultiplier rdf:type owl:DatatypeProperty ;
     rdfs:label      "Prefix Conversion Multiplier"@en ;
     rdfs:comment    "Associates an SI (International System of Units) Prefix Multiplier to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-ccut:prefixConversionOffset a owl:DatatypeProperty ;
+:prefixConversionOffset rdf:type owl:DatatypeProperty ;
     rdfs:label      "Prefix Conversion Offset"@en ;
     rdfs:comment    "Associates an SI (International System of Units) Prefix Offset to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-ccut:exponent a owl:DatatypeProperty ;
+:exponent rdf:type owl:DatatypeProperty ;
     rdfs:label      "Exponent"@en ;
     rdfs:comment    "Associates an exponent (dimension exponent) to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-ccut:multiplier a owl:DatatypeProperty ;
+:multiplier rdf:type owl:DatatypeProperty ;
     rdfs:label      "Multiplier"@en ;
-    rdfs:comment    "Associates a multiplier (dimension prefix multiplier) to some atomic unit"@en ;
+    rdfs:comment    "Associates rdf:type multiplier (dimension prefix multiplier) to some atomic unit"@en ;
     rdfs:range      xsd:double .

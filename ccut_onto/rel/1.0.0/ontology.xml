@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/mint/ccut#"
+     xml:base="https://w3id.org/mint/ccut"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/mint/ccut">
+        <terms:creator>Arunkumar Rajendran</terms:creator>
+        <terms:creator>Basel Shbita</terms:creator>
+        <terms:creator>Jay Pujara</terms:creator>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
+        <terms:title>Canonicalization Compound Unit Representation and Transformation Ontology</terms:title>
+        <vann:preferredNamespacePrefix>ccut</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://w3id.org/mint/ccut#"/>
+        <rdfs:comment>An ontology that describes units of measure for the MINT project</rdfs:comment>
+        <owl:versionInfo>v1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mint/ccut#hasPart -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mint/ccut#hasPart">
+        <rdfs:range rdf:resource="https://w3id.org/mint/ccut#AtomicUnit"/>
+        <rdfs:comment xml:lang="en">Associates rdf:type compound unit with atomic units that compose it</rdfs:comment>
+        <rdfs:label xml:lang="en">Has Part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/mint/ccut#prefix -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mint/ccut#prefix">
+        <rdfs:range rdf:resource="http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind"/>
+        <rdfs:comment xml:lang="en">Associates an SI (International System of Units) Prefix URI to some atomic unit</rdfs:comment>
+        <rdfs:label xml:lang="en">Prefix</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mint/ccut#exponent -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mint/ccut#exponent">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">Associates an exponent (dimension exponent) to some atomic unit</rdfs:comment>
+        <rdfs:label xml:lang="en">Exponent</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/mint/ccut#hasDimension -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mint/ccut#hasDimension">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Associates an atomic or compound unit with rdf:type dimension string</rdfs:comment>
+        <rdfs:label xml:lang="en">Has Dimension</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/mint/ccut#multiplier -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mint/ccut#multiplier">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">Associates rdf:type multiplier (dimension prefix multiplier) to some atomic unit</rdfs:comment>
+        <rdfs:label xml:lang="en">Multiplier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/mint/ccut#prefixConversionMultiplier -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mint/ccut#prefixConversionMultiplier">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">Associates an SI (International System of Units) Prefix Multiplier to some atomic unit</rdfs:comment>
+        <rdfs:label xml:lang="en">Prefix Conversion Multiplier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/mint/ccut#prefixConversionOffset -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mint/ccut#prefixConversionOffset">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">Associates an SI (International System of Units) Prefix Offset to some atomic unit</rdfs:comment>
+        <rdfs:label xml:lang="en">Prefix Conversion Offset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind -->
+
+
+    <owl:Class rdf:about="http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind"/>
+    
+
+
+    <!-- https://w3id.org/mint/ccut#AtomicUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mint/ccut#AtomicUnit">
+        <rdfs:comment xml:lang="en">A class to represent rdf:type single unit symbol which may be modified by additional elements such as exponents or prefixes</rdfs:comment>
+        <rdfs:label xml:lang="en">Atomic Unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mint/ccut#CompoundUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mint/ccut#CompoundUnit">
+        <rdfs:comment xml:lang="en">A class to represent rdf:type complex unit that is composed from two or more atomic units with some relationship between them</rdfs:comment>
+        <rdfs:label xml:lang="en">Compound Unit</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

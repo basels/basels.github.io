@@ -1,0 +1,117 @@
+<https://w3id.org/mint/ccut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/creator> "Arunkumar Rajendran" .
+<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/creator> "Basel Shbita" .
+<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/creator> "Jay Pujara" .
+<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
+<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/title> "Canonicalization Compound Unit Representation and Transformation Ontology" .
+<https://w3id.org/mint/ccut> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ccut" .
+<https://w3id.org/mint/ccut> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/mint/ccut#> .
+<https://w3id.org/mint/ccut> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology that describes units of measure for the MINT project" .
+<https://w3id.org/mint/ccut> <http://www.w3.org/2002/07/owl#versionInfo> "v1.0.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mint/ccut#hasPart
+<https://w3id.org/mint/ccut#hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mint/ccut#hasPart> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mint/ccut#AtomicUnit> .
+<https://w3id.org/mint/ccut#hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates rdf:type compound unit with atomic units that compose it"@en .
+<https://w3id.org/mint/ccut#hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "Has Part"@en .
+# 
+# https://w3id.org/mint/ccut#prefix
+<https://w3id.org/mint/ccut#prefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mint/ccut#prefix> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind> .
+<http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mint/ccut#prefix> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an SI (International System of Units) Prefix URI to some atomic unit"@en .
+<https://w3id.org/mint/ccut#prefix> <http://www.w3.org/2000/01/rdf-schema#label> "Prefix"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mint/ccut#exponent
+<https://w3id.org/mint/ccut#exponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mint/ccut#exponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mint/ccut#exponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an exponent (dimension exponent) to some atomic unit"@en .
+<https://w3id.org/mint/ccut#exponent> <http://www.w3.org/2000/01/rdf-schema#label> "Exponent"@en .
+# 
+# https://w3id.org/mint/ccut#hasDimension
+<https://w3id.org/mint/ccut#hasDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mint/ccut#hasDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mint/ccut#hasDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an atomic or compound unit with rdf:type dimension string"@en .
+<https://w3id.org/mint/ccut#hasDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Has Dimension"@en .
+# 
+# https://w3id.org/mint/ccut#multiplier
+<https://w3id.org/mint/ccut#multiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mint/ccut#multiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mint/ccut#multiplier> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates rdf:type multiplier (dimension prefix multiplier) to some atomic unit"@en .
+<https://w3id.org/mint/ccut#multiplier> <http://www.w3.org/2000/01/rdf-schema#label> "Multiplier"@en .
+# 
+# https://w3id.org/mint/ccut#prefixConversionMultiplier
+<https://w3id.org/mint/ccut#prefixConversionMultiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mint/ccut#prefixConversionMultiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mint/ccut#prefixConversionMultiplier> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an SI (International System of Units) Prefix Multiplier to some atomic unit"@en .
+<https://w3id.org/mint/ccut#prefixConversionMultiplier> <http://www.w3.org/2000/01/rdf-schema#label> "Prefix Conversion Multiplier"@en .
+# 
+# https://w3id.org/mint/ccut#prefixConversionOffset
+<https://w3id.org/mint/ccut#prefixConversionOffset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mint/ccut#prefixConversionOffset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mint/ccut#prefixConversionOffset> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an SI (International System of Units) Prefix Offset to some atomic unit"@en .
+<https://w3id.org/mint/ccut#prefixConversionOffset> <http://www.w3.org/2000/01/rdf-schema#label> "Prefix Conversion Offset"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind
+# 
+# https://w3id.org/mint/ccut#AtomicUnit
+<https://w3id.org/mint/ccut#AtomicUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mint/ccut#AtomicUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A class to represent rdf:type single unit symbol which may be modified by additional elements such as exponents or prefixes"@en .
+<https://w3id.org/mint/ccut#AtomicUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Atomic Unit"@en .
+# 
+# https://w3id.org/mint/ccut#CompoundUnit
+<https://w3id.org/mint/ccut#CompoundUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mint/ccut#CompoundUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A class to represent rdf:type complex unit that is composed from two or more atomic units with some relationship between them"@en .
+<https://w3id.org/mint/ccut#CompoundUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Compound Unit"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

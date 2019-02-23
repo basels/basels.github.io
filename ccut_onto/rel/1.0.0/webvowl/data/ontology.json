@@ -1,0 +1,316 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.4), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.qudt.org/qudt/owl/1.0.0/qudt/", "https://w3id.org/mint/ccut" ],
+    "title" : {
+      "undefined" : "Canonicalization Compound Unit Representation and Transformation Ontology"
+    },
+    "iri" : "https://w3id.org/mint/ccut",
+    "version" : "v1.0.0",
+    "author" : [ "Arunkumar Rajendran", "Basel Shbita", "Jay Pujara" ],
+    "comments" : {
+      "undefined" : "An ontology that describes units of measure for the MINT project"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/2.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Arunkumar Rajendran",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Basel Shbita",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Jay Pujara",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "ccut",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/mint/ccut#",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "v1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Canonicalization Compound Unit Representation and Transformation Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 3,
+    "objectPropertyCount" : 2,
+    "datatypePropertyCount" : 5,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "1",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "9",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind",
+    "baseIri" : "http://www.qudt.org/qudt/owl/1.0.0/qudt/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QuantityKind"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#CompoundUnit",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompoundUnit",
+      "en" : "Compound Unit"
+    },
+    "comment" : {
+      "en" : "A class to represent rdf:type complex unit that is composed from two or more atomic units with some relationship between them"
+    },
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#AtomicUnit",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AtomicUnit",
+      "en" : "Atomic Unit"
+    },
+    "comment" : {
+      "en" : "A class to represent rdf:type single unit symbol which may be modified by additional elements such as exponents or prefixes"
+    },
+    "id" : "10"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/mint/ccut#exponent",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "exponent",
+      "en" : "Exponent"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Associates an exponent (dimension exponent) to some atomic unit"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#prefixConversionOffset",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "prefixConversionOffset",
+      "en" : "Prefix Conversion Offset"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Associates an SI (International System of Units) Prefix Offset to some atomic unit"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#prefix",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "prefix",
+      "en" : "Prefix"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Associates an SI (International System of Units) Prefix URI to some atomic unit"
+    },
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#hasPart",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasPart",
+      "en" : "Has Part"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Associates rdf:type compound unit with atomic units that compose it"
+    },
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#prefixConversionMultiplier",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "prefixConversionMultiplier",
+      "en" : "Prefix Conversion Multiplier"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Associates an SI (International System of Units) Prefix Multiplier to some atomic unit"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#multiplier",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "multiplier",
+      "en" : "Multiplier"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Associates rdf:type multiplier (dimension prefix multiplier) to some atomic unit"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/mint/ccut#hasDimension",
+    "baseIri" : "https://w3id.org/mint/ccut",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasDimension",
+      "en" : "Has Dimension"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Associates an atomic or compound unit with rdf:type dimension string"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  } ]
+}

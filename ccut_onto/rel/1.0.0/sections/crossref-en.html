@@ -1,0 +1,218 @@
+<html><h2 id="crossreference" class="list">Cross reference for Canonicalization Compound Unit Representation and Transformation Ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Canonicalization Compound Unit Representation and Transformation Ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#AtomicUnit" title="https://w3id.org/mint/ccut#AtomicUnit">Atomic Unit</a>
+      </li>
+      <li>
+         <a href="#CompoundUnit" title="https://w3id.org/mint/ccut#CompoundUnit">Compound Unit</a>
+      </li>
+   </ul>
+   <div class="entity" id="AtomicUnit">
+      <h3>Atomic Unit<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#AtomicUnit</p>
+      <div class="comment">
+         <span class="markdown">A class to represent rdf:type single unit symbol which may be modified by additional elements such as exponents or prefixes</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasPart" title="https://w3id.org/mint/ccut#hasPart">Has Part</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="CompoundUnit">
+      <h3>Compound Unit<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#CompoundUnit</p>
+      <div class="comment">
+         <span class="markdown">A class to represent rdf:type complex unit that is composed from two or more atomic units with some relationship between them</span>
+      </div>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#hasPart" title="https://w3id.org/mint/ccut#hasPart">Has Part</a>
+      </li>
+      <li>
+         <a href="#prefix" title="https://w3id.org/mint/ccut#prefix">Prefix</a>
+      </li>
+   </ul>
+   <div class="entity" id="hasPart">
+      <h3>Has Part<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#hasPart</p>
+      <div class="comment">
+         <span class="markdown">Associates rdf:type compound unit with atomic units that compose it</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <a href="#AtomicUnit" title="https://w3id.org/mint/ccut#AtomicUnit">Atomic Unit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="prefix">
+      <h3>Prefix<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#prefix</p>
+      <div class="comment">
+         <span class="markdown">Associates an SI (International System of Units) Prefix URI to some atomic unit</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.qudt.org/qudt/owl/1.0.0/qudt/#QuantityKind">quantity kind</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#exponent" title="https://w3id.org/mint/ccut#exponent">Exponent</a>
+      </li>
+      <li>
+         <a href="#hasDimension" title="https://w3id.org/mint/ccut#hasDimension">Has Dimension</a>
+      </li>
+      <li>
+         <a href="#multiplier" title="https://w3id.org/mint/ccut#multiplier">Multiplier</a>
+      </li>
+      <li>
+         <a href="#prefixConversionMultiplier"
+            title="https://w3id.org/mint/ccut#prefixConversionMultiplier">Prefix Conversion Multiplier</a>
+      </li>
+      <li>
+         <a href="#prefixConversionOffset"
+            title="https://w3id.org/mint/ccut#prefixConversionOffset">Prefix Conversion Offset</a>
+      </li>
+   </ul>
+   <div class="entity" id="exponent">
+      <h3>Exponent<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#exponent</p>
+      <div class="comment">
+         <span class="markdown">Associates an exponent (dimension exponent) to some atomic unit</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDimension">
+      <h3>Has Dimension<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#hasDimension</p>
+      <div class="comment">
+         <span class="markdown">Associates an atomic or compound unit with rdf:type dimension string</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="multiplier">
+      <h3>Multiplier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#multiplier</p>
+      <div class="comment">
+         <span class="markdown">Associates rdf:type multiplier (dimension prefix multiplier) to some atomic unit</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="prefixConversionMultiplier">
+      <h3>Prefix Conversion Multiplier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#prefixConversionMultiplier</p>
+      <div class="comment">
+         <span class="markdown">Associates an SI (International System of Units) Prefix Multiplier to some atomic unit</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="prefixConversionOffset">
+      <h3>Prefix Conversion Offset<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mint/ccut#prefixConversionOffset</p>
+      <div class="comment">
+         <span class="markdown">Associates an SI (International System of Units) Prefix Offset to some atomic unit</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</html>
