@@ -2,11 +2,23 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml:   <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix ccut:  <https://basels.github.io/ccut_onto/ccut.ttl#> .
+@prefix ccut:  <https://w3id.org/mint/ccut#> .
 @prefix qudtp: <http://www.qudt.org/qudt/owl/1.0.0/qudt/Properties.html#> .
 @prefix qudtu: <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#> .
 @prefix qudt:  <http://www.qudt.org/qudt/owl/1.0.0/qudt/#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
 
+<https://w3id.org/mint/ccut#> a owl:Ontology;
+    owl:versionIRI <https://w3id.org/enigma/cohort/1.0.0> ;
+    <http://purl.org/dc/terms/creator> "Basel Shbita",
+                                       "Arunkumar Rajendran",
+                                       "Jay Pujara" ;
+    <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> ;
+    <http://purl.org/dc/terms/title> "Canonicalization Compound Unit Representation and Transformation Ontology" ;
+    <http://purl.org/vocab/vann/preferredNamespacePrefix> "ccut" ;
+    <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/mint/ccut#> ;
+    rdfs:comment "An ontology that describes units of measure for the MINT project" ;
+    owl:versionInfo "v1.0.0" .
 
 ccut:atomicUnit a rdfs:Class ;
     rdfs:label                      "Atomic Unit"@en ;
@@ -29,37 +41,37 @@ ccut:compoundUnit a rdfs:Class ;
     ccut:hasPart                    ccut:atomicUnit ;
     ccut:hasDimension               xsd:string .
 
-ccut:hasDimension a rdf:Property ;
+ccut:hasDimension a owl:DatatypeProperty ;
     rdfs:label      "Has Dimension"@en ;
     rdfs:comment    "Associates an atomic or compound unit with a dimension string"@en ;
     rdfs:range      xsd:string .
 
-ccut:hasPart a rdf:Property ;
+ccut:hasPart a owl:ObjectProperty ;
     rdfs:label      "Has Part"@en ;
     rdfs:comment    "Associates a compound unit with atomic units that compose it"@en ;
     rdfs:range      ccut:atomicUnit .
 
-ccut:prefix a rdf:Property ;
+ccut:prefix a owl:ObjectProperty ;
     rdfs:label      "Prefix"@en ;
     rdfs:comment    "Associates an SI (International System of Units) Prefix URI to some atomic unit"@en ;
     rdfs:range      qudt:QuantityKind .
 
-ccut:prefixConversionMultiplier a rdf:Property ;
+ccut:prefixConversionMultiplier a owl:DatatypeProperty ;
     rdfs:label      "Prefix Conversion Multiplier"@en ;
     rdfs:comment    "Associates an SI (International System of Units) Prefix Multiplier to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-ccut:prefixConversionOffset a rdf:Property ;
+ccut:prefixConversionOffset a owl:DatatypeProperty ;
     rdfs:label      "Prefix Conversion Offset"@en ;
     rdfs:comment    "Associates an SI (International System of Units) Prefix Offset to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-ccut:exponent a rdf:Property ;
+ccut:exponent a owl:DatatypeProperty ;
     rdfs:label      "Exponent"@en ;
     rdfs:comment    "Associates an exponent (dimension exponent) to some atomic unit"@en ;
     rdfs:range      xsd:double .
 
-ccut:multiplier a rdf:Property ;
+ccut:multiplier a owl:DatatypeProperty ;
     rdfs:label      "Multiplier"@en ;
     rdfs:comment    "Associates a multiplier (dimension prefix multiplier) to some atomic unit"@en ;
     rdfs:range      xsd:double .
