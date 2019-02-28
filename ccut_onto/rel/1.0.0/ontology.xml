@@ -9,9 +9,9 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mint/ccut">
-        <terms:creator>Arunkumar Rajendran</terms:creator>
+        <terms:contributor>Arunkumar Rajendran</terms:contributor>
+        <terms:contributor>Jay Pujara</terms:contributor>
         <terms:creator>Basel Shbita</terms:creator>
-        <terms:creator>Jay Pujara</terms:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
         <terms:title>Canonicalization Compound Unit Representation and Transformation Ontology</terms:title>
         <vann:preferredNamespacePrefix>ccut</vann:preferredNamespacePrefix>
@@ -31,6 +31,13 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
     
 
 

@@ -1,4 +1,7 @@
 [ {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -19,12 +22,13 @@
 }, {
   "@id" : "https://w3id.org/mint/ccut",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/terms/creator" : [ {
+  "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "Arunkumar Rajendran"
   }, {
-    "@value" : "Basel Shbita"
-  }, {
     "@value" : "Jay Pujara"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Basel Shbita"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "http://creativecommons.org/licenses/by/2.0/"

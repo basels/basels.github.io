@@ -10,9 +10,9 @@
 @base          <https://w3id.org/mint/ccut> .
 
 <https://w3id.org/mint/ccut> rdf:type owl:Ontology;
-    <http://purl.org/dc/terms/creator> "Basel Shbita",
-                                       "Arunkumar Rajendran",
-                                       "Jay Pujara" ;
+    <http://purl.org/dc/terms/creator> "Basel Shbita" ;
+    <http://purl.org/dc/terms/contributor>  "Arunkumar Rajendran",
+                                            "Jay Pujara" ;
     <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> ;
     <http://purl.org/dc/terms/title> "Canonicalization Compound Unit Representation and Transformation Ontology" ;
     <http://purl.org/vocab/vann/preferredNamespacePrefix> "ccut" ;

@@ -1,7 +1,7 @@
 <https://w3id.org/mint/ccut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/creator> "Arunkumar Rajendran" .
+<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/contributor> "Arunkumar Rajendran" .
+<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/contributor> "Jay Pujara" .
 <https://w3id.org/mint/ccut> <http://purl.org/dc/terms/creator> "Basel Shbita" .
-<https://w3id.org/mint/ccut> <http://purl.org/dc/terms/creator> "Jay Pujara" .
 <https://w3id.org/mint/ccut> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
 <https://w3id.org/mint/ccut> <http://purl.org/dc/terms/title> "Canonicalization Compound Unit Representation and Transformation Ontology" .
 <https://w3id.org/mint/ccut> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ccut" .
@@ -16,6 +16,9 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

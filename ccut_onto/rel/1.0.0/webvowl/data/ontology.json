@@ -8,7 +8,7 @@
     },
     "iri" : "https://w3id.org/mint/ccut",
     "version" : "v1.0.0",
-    "author" : [ "Arunkumar Rajendran", "Basel Shbita", "Jay Pujara" ],
+    "author" : [ "Basel Shbita" ],
     "comments" : {
       "undefined" : "An ontology that describes units of measure for the MINT project"
     },
@@ -22,15 +22,16 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
+        "value" : "Basel Shbita",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
         "value" : "Arunkumar Rajendran",
         "type" : "label"
       }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Basel Shbita",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
+        "identifier" : "contributor",
         "language" : "undefined",
         "value" : "Jay Pujara",
         "type" : "label"
@@ -41,17 +42,17 @@
         "value" : "ccut",
         "type" : "label"
       } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/mint/ccut#",
-        "type" : "iri"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
         "value" : "v1.0.0",
         "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/mint/ccut#",
+        "type" : "iri"
       } ],
       "title" : [ {
         "identifier" : "title",
