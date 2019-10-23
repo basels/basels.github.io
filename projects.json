@@ -6,7 +6,7 @@
       "thumbnail": "images/proj_2019_09.jpg",
       "desc": "Worked on combining, transforming and reformatting datasets and on identifying units of measurement in scientific data as part of a Data Catalog that provides a central clearinghouse for metadata about scientific datasets.<br>The framework supports fuzzy searching for data variables using NLP techniques, provides a number of automated, data-understanding tools to make data curation easier, and automates the processes for data processing and transformation for different use cases.",
       "links": {
-        "Paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf"
+        "Paper": "docs/shbita_akts19_data_cat.pdf"
       },
       "year": "2019",
       "tags_tools": [ "Python", "TTL/RDF" ],
