@@ -1,7 +1,7 @@
 HTML_HEADER_START = '''<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Basel Shbita's Homepage</title>
+    <title>Basel Shbita</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
@@ -23,7 +23,7 @@ HTML_HEADER_START = '''<!DOCTYPE html>
               <span class="icon-bar"></span>
             </button>
             <span>
-              <a id="logo_h2" href="index.html"><span style="color:#33cccc">Basel Shbita's Homepage</span></a>
+              <a id="logo_h2" href="index.html"><span style="color:#33cccc">Basel Shbita</span></a>
             </span>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
