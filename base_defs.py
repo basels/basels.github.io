@@ -1,14 +1,15 @@
-HTML_HEADER_START = '''
-<!DOCTYPE html>
+HTML_HEADER_START = '''<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Basel Shbita</title>
+    <title>Basel Shbita's Homepage</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" type="image/png" href="images/myicon.png">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/2bcd4e2c08.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -22,7 +23,7 @@ HTML_HEADER_START = '''
               <span class="icon-bar"></span>
             </button>
             <span>
-              <a id="logo_h2" href="index.html"><span style="color:#33cccc">Basel Shbita</span></a>
+              <a id="logo_h2" href="index.html"><span style="color:#33cccc">Basel Shbita's Homepage</span></a>
             </span>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
@@ -65,9 +66,10 @@ CARD_TAG_FIELD = '''
       "subtitle": "",
       "thumbnail": "",
       "desc": "",
-      "paper": "",
-      "check_it_out": "",
-      "github": "",
+      "links": {
+        "Paper": "",
+        ...
+      },
       "year": "",
       "tags_tools": [ "" ],
       "tags_fields": [ "" ],

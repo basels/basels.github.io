@@ -1,23 +1,44 @@
 {
   "Educational Projects & Research": [
     {
+      "title": "Creating a FAIR Data Catalog to Support Scientific Modeling",
+      "subtitle": "with Binh Vu, Minh Pham, Dan Feldman, Arun Rajendran, Prof. Craig Knoblock, Prof. Jay Pujara, and Prof. Yao-Yi Chiang,",
+      "thumbnail": "images/proj_2019_09.jpg",
+      "desc": "Worked on combining, transforming and reformatting datasets and on identifying units of measurement in scientific data as part of a Data Catalog that provides a central clearinghouse for metadata about scientific datasets.<br>The framework supports fuzzy searching for data variables using NLP techniques, provides a number of automated, data-understanding tools to make data curation easier, and automates the processes for data processing and transformation for different use cases.",
+      "links": {
+        "Paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf"
+      },
+      "year": "2019",
+      "tags_tools": [ "Python", "TTL/RDF" ],
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration", "NLP"],
+      "citation": "<b>B. Shbita</b>, B. Vu, D. Feldman, M. Pham, A. Rajendran, C. Knoblock, J. Pujara, and Y. Chiang. Creating a FAIR Data Catalog to Support Scientific Modeling, in <i>Workshop on Advanced Knowledge Technologies for Science in a FAIR World (AKTS), 2019</i>"
+    },
+    {
       "title": "Parsing, Representing and Transforming Units of Measure",
       "subtitle": "with Arun Rajendran, Dr. Jay Pujara, and Prof. Craig Knoblock (University of Southern California)",
       "thumbnail": "images/proj_2019_05.jpg",
-      "desc": "Proposed a baseline unsupervised approach to identify units of measurement in source data, provide a corresponding semantic representation and a method (API) that enables data transformations such as unit conversions.</br>Our prototype system, called CCUT, uses grammar tools to automatically parse the different components in a unit found in textual data in files and maps them to elements of a standard ontology defined by NASA to form a structured semantic output.",
-      "paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf",
-      "github": "https://github.com/basels/ccut#readme",
+      "desc": "Proposed a baseline unsupervised approach to identify units of measurement in source data, provide a corresponding semantic representation and a method (API) that enables data transformations such as unit conversions.<br>Our prototype system, called CCUT, uses grammar tools to automatically parse the different components in a unit found in textual data in files and maps them to elements of a standard ontology defined by NASA to form a structured semantic output.",
+      "links": {
+        "Paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf",
+        "Poster": "docs/shbita_momacs19_poster.pdf",
+        "Code": "https://github.com/basels/ccut#readme"
+      },
       "year": "2019",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Linked Data", "Knowledge Graphs", "Information Integration" ],
-      "citation": "B. Shbita, A. Rajendran, J. Pujara, and C. Knoblock. Parsing, Representing and Transforming Units of Measure, in <i>Modeling the World's Systems, 2019</i>"
+      "citation": "<b>B. Shbita</b>, A. Rajendran, J. Pujara, and C. Knoblock. Parsing, Representing and Transforming Units of Measure, in <i>Modeling the World's Systems, 2019</i>"
     },
     {
       "title": "Marvel and DC-Comics comic-books Knowledge Graph",
       "subtitle": "Supervisors: Prof. Pedro Szekely, Dr. Jay Pujara (University of Southern California)",
       "thumbnail": "images/proj_06.jpg",
-      "desc": "Planned, designed, implemented and deployed a knowledge graph which captures Marvel and DC-Comics brands comic-book characters, comic-book issues and movies. </br>The system allows users to analyze data and easily navigate the KG and obtain insights for any question in this domain.</br>Project conducted as part of the 'INF 558/CSCI 563: Building Knowledge Graphs' class. Project includes web crawling, information extraction, source alignment, entity linking, ontology definition, querying knowledge graphs, data cleaning, image color analysis and RDF triples generation.",
-      "github": "https://github.com/basels/Marvel-and-DC-Comic-books-KG#readme",
+      "desc": "Planned, designed, implemented and deployed a knowledge graph which captures Marvel and DC-Comics brands comic-book characters, comic-book issues and movies. <br>The system allows users to analyze data and easily navigate the KG and obtain insights for any question in this domain.<br>Project conducted as part of the 'INF 558/CSCI 563: Building Knowledge Graphs' class. Project includes web crawling, information extraction, source alignment, entity linking, ontology definition, querying knowledge graphs, data cleaning, image color analysis and RDF triples generation.",
+      "links": {
+        "Report": "https://github.com/basels/Marvel-and-DC-Comic-books-KG/blob/master/final_submission/Basel_Shbita_Ke_Xu_project_summary.pdf",
+        "Slides": "https://github.com/basels/Marvel-and-DC-Comic-books-KG/blob/master/final_submission/Basel_Shbita_Ke_Xu_final_presentation.pdf",
+        "Demo": "https://www.youtube.com/watch?v=MYFi45EeZV0",
+        "Code": "https://github.com/basels/Marvel-and-DC-Comic-books-KG#readme"
+      },
       "year": "2018",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": [ "Knowledge Graphs", "Information Integration" ]
@@ -26,7 +47,7 @@
       "title": "IPoIB Router in the Switch-X Product Family: from Firmware Design to Implementation of the Verification Environment and the Debug Tools",
       "subtitle": "under direction of Mr. Ami Marelli (Mellanox Technologies)",
       "thumbnail": "images/proj_02.jpg",
-      "desc": "Executed an implementation and verification process of the IPolB Router firmware mechanism in the Switch-X IC, a Switch System Silicon designed by Mellanox Technologies.</br>The development was done in the firmware layer using different methods and tools, according to the company’s required methodologies.",
+      "desc": "Executed an implementation and verification process of the IPolB Router firmware mechanism in the Switch-X IC, a Switch System Silicon designed by Mellanox Technologies.<br>The development was done in the firmware layer using different methods and tools, according to the company’s required methodologies.",
       "year": "2014",
       "tags_tools": [ "C", "C++", "Python", "OOP", "RTOS" ],
       "tags_fields": [ "Computer Networks", "Embedded Software" ]
@@ -35,7 +56,7 @@
       "title": "Physical Design of 12-bit Two's Complement Adder",
       "subtitle": "Supervisors: Prof. Yosi Shacham, Mr. Avi Efrati (Tel Aviv University)",
       "thumbnail": "images/proj_03.jpg",
-      "desc": "The project included hierarchical layout design, floorplanning, manual estimations and full layout simulations.</br>The Design was implemented using the 90nm Generic Process Design Kit (gpdk090) Technology and the gsclib090 library and was designed in Assura Virtuoso software.</br>Project conducted as part of the 'Introduction to VLSI design' course.",
+      "desc": "The project included hierarchical layout design, floorplanning, manual estimations and full layout simulations.<br>The Design was implemented using the 90nm Generic Process Design Kit (gpdk090) Technology and the gsclib090 library and was designed in Assura Virtuoso software.<br>Project conducted as part of the 'Introduction to VLSI design' course.",
       "year": "2014",
       "tags_tools": [ "PSpice", "Virtuoso", "CAD" ],
       "tags_fields": [ "VLSI" ]
@@ -44,7 +65,7 @@
       "title": "Logic Design of Full Simplified DLX using FPGA",
       "subtitle": "Supervisors: Mrs. Liron David, Mr. Marko Markov (Tel Aviv University)",
       "thumbnail": "images/proj_04.jpg",
-      "desc": "This project includes hardware design, implementation and debugging of a simple RISC processor (including data and control planes) on an FPGA development platform.</br>Used Xilinx software package and RESA software suite to code schematic and hardware description language (VHDL) designs and conduct logical simulations.</br>The project also included writing and executing of Assembly programs on the design.</br>Project conducted as part of the 'Advanced Computer Structure Lab' course.",
+      "desc": "This project includes hardware design, implementation and debugging of a simple RISC processor (including data and control planes) on an FPGA development platform.<br>Used Xilinx software package and RESA software suite to code schematic and hardware description language (VHDL) designs and conduct logical simulations.<br>The project also included writing and executing of Assembly programs on the design.<br>Project conducted as part of the 'Advanced Computer Structure Lab' course.",
       "year": "2013",
       "tags_tools": [ "VHDL", "Assembly" ],
       "tags_fields": [ "FPGA" ]
@@ -53,7 +74,7 @@
       "title": "Kiosk Management: A Thesis in Systems Design and Programming with Web Services",
       "subtitle": "Supervisor: Mrs. Inessa Bolotin (Israel Arts and Science Academy)",
       "thumbnail": "images/proj_05.jpg",
-      "desc": "A user-friendly website for product purchasing.</br>The application features different levels of users and managers and enables them to view and add products to the catalog, prepare supplier-report and closely monitor expenses and revenues.</br>The system was used during senior high school year to raise money for students.",
+      "desc": "A user-friendly website for product purchasing.<br>The application features different levels of users and managers and enables them to view and add products to the catalog, prepare supplier-report and closely monitor expenses and revenues.<br>The system was used during senior high school year to raise money for students.",
       "year": "2010",
       "tags_tools": [ "C#", "ASP.NET", "JS", "CSS" ],
       "tags_fields": [ "Web", "Fullstack" ]
@@ -62,8 +83,10 @@
       "title": "Improving Text-Independent Speaker Identification Performance Using Gaussian Mixture Speaker Models",
       "subtitle": "under direction of Dr. David Palmer (HP Autonomy)",
       "thumbnail": "images/proj_01.jpg",
-      "desc": "Studied Statistical Natural Language Processing, Automatic Speech Recognition and Machine Learning. Performed model training and testing with Python.</br>The research was conducted as part of the Research Science Institute (RSI), an intensive six-week program under sponsorship of the Center for Excellence in Education and hosted by the MIT.",
-      "paper": "docs/RSI_paper_Basel_Shbita.pdf",
+      "desc": "Studied Statistical Natural Language Processing, Automatic Speech Recognition and Machine Learning. Performed model training and testing with Python.<br>The research was conducted as part of the Research Science Institute (RSI), an intensive six-week program under sponsorship of the Center for Excellence in Education and hosted by the MIT.",
+      "links": {
+        "Paper": "docs/RSI_paper_Basel_Shbita.pdf"
+      },
       "year": "2009",
       "tags_tools": [ "Python" ],
       "tags_fields": [ "Machine Learning" ],
@@ -76,8 +99,10 @@
       "subtitle": "Metaburn",
       "thumbnail": "images/p_proj_01.jpg",
       "desc": "A platform for planning and crowdfunding co-created events. This version was the adoption of the Midburn - Israeli Burning Man regional community.",
-      "check_it_out": "https://dreams.midburn.org/?lang=en",
-      "github": "https://github.com/Midburn/Dreams#readme",
+      "links": {
+        "Check It Out": "https://dreams.midburn.org/?lang=en",
+        "Code": "https://github.com/Midburn/Dreams#readme"
+      },
       "year": "2016-2018",
       "tags_tools": [ "Ruby on Rails", "JS", "CSS" ],
       "tags_fields": [ "Web", "Fullstack"]
@@ -101,7 +126,7 @@
     {
       "title": "Poké-Quest",
       "thumbnail": "images/p_proj_03.jpg",
-      "desc": "A self made Pokémon-like game running on Processing IDE.</br></br><small>Graphic patterns owned by Nintendo ©</small>",
+      "desc": "A self made Pokémon-like game running on Processing IDE.<br><br><small>Graphic patterns owned by Nintendo ©</small>",
       "year": "2015",
       "tags_tools": [ "Processing" ],
       "tags_fields": [ "Application" ]
