@@ -1,8 +1,20 @@
 {
   "Educational Projects & Research": [
     {
+      "title": "Music Latent Representation and Disentanglement for Genre Classification",
+      "subtitle": "with Ehsan Qasemi, Binh Vu, and Minh Pham",
+      "thumbnail": "images/proj_2019_12.jpg",
+      "desc": "Investigated the use of unsupervised representation learning techniques to compress musical samples into a low-dimensional representation and use it for the task of music genre classification. <br>We facilitated the robust learning of disentangled representations (i.e., features like genre) by increasing the information capacity of the latent code during training. The training and evaluation of the models were done using the FMA public dataset. <br>Project conducted as part of the 'CSCI 699: Representation Learning: Theory and Practice' class.",
+      "links": {
+        "Paper": "docs/shbita_cs699_music.pdf"
+      },
+      "year": "2019",
+      "tags_tools": [ "Python", "PyTorch" ],
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Information Theory"]
+    },
+    {
       "title": "Creating a FAIR Data Catalog to Support Scientific Modeling",
-      "subtitle": "with Binh Vu, Minh Pham, Dan Feldman, Arun Rajendran, Prof. Craig Knoblock, Prof. Jay Pujara, and Prof. Yao-Yi Chiang,",
+      "subtitle": "with Binh Vu, Minh Pham, Dan Feldman, Arun Rajendran, Prof. Craig Knoblock, Prof. Jay Pujara, and Prof. Yao-Yi Chiang",
       "thumbnail": "images/proj_2019_09.jpg",
       "desc": "Worked on combining, transforming and reformatting datasets and on identifying units of measurement in scientific data as part of a Data Catalog that provides a central clearinghouse for metadata about scientific datasets.<br>The framework supports fuzzy searching for data variables using NLP techniques, provides a number of automated, data-understanding tools to make data curation easier, and automates the processes for data processing and transformation for different use cases.",
       "links": {
