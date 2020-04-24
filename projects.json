@@ -1,6 +1,19 @@
 {
   "Educational Projects & Research": [
     {
+      "title": "Building Linked Spatio-Temporal Data from Vectorized Historical Maps",
+      "subtitle": "with Craig A. Knoblock, Weiwei Duan, Yao-Yi Chiang, Johannes H. Uhl, and Stefan Leyk",
+      "thumbnail": "images/proj_2020_02.jpg",
+      "desc": "Worked on an unsupervised approach to convert vector data of geographic features extracted from multiple historical maps (i.e. railroad network) into linked spatio-temporal data. The resulting graphs can be easily queried and visualized to understand the changes in specific regions over time and fuel additional discovery in linked open vocabularies.",
+      "links": {
+        "Code": "https://github.com/usc-isi-i2/linked-maps"
+      },
+      "year": "2020",
+      "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration"],
+      "citation": "<b>B. Shbita</b>, C. A. Knoblock, W. Duan, Y. Chiang, J. H. Uhl, and S. Leyk. Building Linked Spatio-Temporal Data from Vectorized Historical Maps, in <i>Extended Semantic Web Conference, 2020</i>"
+    },
+    {
       "title": "Music Latent Representation and Disentanglement for Genre Classification",
       "subtitle": "with Ehsan Qasemi, Binh Vu, and Minh Pham",
       "thumbnail": "images/proj_2019_12.jpg",
@@ -14,7 +27,7 @@
     },
     {
       "title": "Creating a FAIR Data Catalog to Support Scientific Modeling",
-      "subtitle": "with Binh Vu, Minh Pham, Dan Feldman, Arun Rajendran, Prof. Craig Knoblock, Prof. Jay Pujara, and Prof. Yao-Yi Chiang",
+      "subtitle": "with Binh Vu, Minh Pham, Dan Feldman, Arun Rajendran, Prof. Craig A. Knoblock, Prof. Jay Pujara, and Prof. Yao-Yi Chiang",
       "thumbnail": "images/proj_2019_09.jpg",
       "desc": "Worked on combining, transforming and reformatting datasets and on identifying units of measurement in scientific data as part of a Data Catalog that provides a central clearinghouse for metadata about scientific datasets.<br>The framework supports fuzzy searching for data variables using NLP techniques, provides a number of automated, data-understanding tools to make data curation easier, and automates the processes for data processing and transformation for different use cases.",
       "links": {
@@ -27,7 +40,7 @@
     },
     {
       "title": "Parsing, Representing and Transforming Units of Measure",
-      "subtitle": "with Arun Rajendran, Dr. Jay Pujara, and Prof. Craig Knoblock (University of Southern California)",
+      "subtitle": "with Arun Rajendran, Dr. Jay Pujara, and Prof. Craig A. Knoblock (University of Southern California)",
       "thumbnail": "images/proj_2019_05.jpg",
       "desc": "Proposed a baseline unsupervised approach to identify units of measurement in source data, provide a corresponding semantic representation and a method (API) that enables data transformations such as unit conversions.<br>Our prototype system, called CCUT, uses grammar tools to automatically parse the different components in a unit found in textual data in files and maps them to elements of a standard ontology defined by NASA to form a structured semantic output.",
       "links": {
