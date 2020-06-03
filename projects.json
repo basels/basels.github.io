@@ -6,12 +6,14 @@
       "thumbnail": "images/proj_2020_02.jpg",
       "desc": "Worked on an unsupervised approach to convert vector data of geographic features extracted from multiple historical maps (i.e. railroad network) into linked spatio-temporal data. The resulting graphs can be easily queried and visualized to understand the changes in specific regions over time and fuel additional discovery in linked open vocabularies.",
       "links": {
+        "Link": "https://link.springer.com/chapter/10.1007/978-3-030-49461-2_24",
+        "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf",
         "Code": "https://github.com/usc-isi-i2/linked-maps"
       },
       "year": "2020",
       "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration"],
-      "citation": "<b>B. Shbita</b>, C. A. Knoblock, W. Duan, Y. Chiang, J. H. Uhl, and S. Leyk. Building Linked Spatio-Temporal Data from Vectorized Historical Maps, in <i>Extended Semantic Web Conference, 2020</i>"
+      "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham"
     },
     {
       "title": "Music Latent Representation and Disentanglement for Genre Classification",
@@ -36,7 +38,7 @@
       "year": "2019",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration", "NLP"],
-      "citation": "<b>B. Shbita</b>, B. Vu, D. Feldman, M. Pham, A. Rajendran, C. Knoblock, J. Pujara, and Y. Chiang. Creating a FAIR Data Catalog to Support Scientific Modeling, in <i>Workshop on Advanced Knowledge Technologies for Science in a FAIR World (AKTS), 2019</i>"
+      "citation": "<b>Shbita, B.</b>, Vu, B., Feldman, D., Pham, M., Rajendran, A., Knoblock, C. A., Pujara, J., & Chiang, Y. Y. (2019). Creating a FAIR Data Catalog to Support Scientific Modeling. In <i>Workshop on Advanced Knowledge Technologies for Science in a FAIR World (AKTS)</i>"
     },
     {
       "title": "Parsing, Representing and Transforming Units of Measure",
@@ -46,12 +48,12 @@
       "links": {
         "Paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf",
         "Poster": "docs/shbita_momacs19_poster.pdf",
-        "Code": "https://github.com/basels/ccut#readme"
+        "Code": "https://github.com/basels/ccut"
       },
       "year": "2019",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Linked Data", "Knowledge Graphs", "Information Integration" ],
-      "citation": "<b>B. Shbita</b>, A. Rajendran, J. Pujara, and C. Knoblock. Parsing, Representing and Transforming Units of Measure, in <i>Modeling the World's Systems, 2019</i>"
+      "citation": "<b>Shbita, B.</b>, Rajendran, A., Pujara, J., & Knoblock, C. A. (2019). Parsing, Representing and Transforming Units of Measure. In <i>Modeling the World’s Systems</i>"
     },
     {
       "title": "Marvel and DC-Comics comic-books Knowledge Graph",
