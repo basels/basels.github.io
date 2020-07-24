@@ -16,6 +16,18 @@
       "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham"
     },
     {
+      "title": "Robust Defense Against Lp-Norm-Based Attacks by Learning Robust Representations",
+      "subtitle": "with Iordanis Fostiropoulos, and Myrl Marmarelis",
+      "thumbnail": "images/proj_2020_06.jpg",
+      "desc": "Investigated the vulnerablity of image classifiers to adversarial perturbations and proposed a new regularization objective based on the Euclidean distance between classes in the hypothetical latent space found in the features of the penultimate layer. <br>Our approach is significantly more robust than that of the previous state of the art, and entails an insignificant fine-tuning of existing models. <br>Project conducted as part of the 'CSCI 699: Adversarial Machine Learning' class.",
+      "links": {
+        "Paper": "docs/shbita_cs699_robust.pdf"
+      },
+      "year": "2020",
+      "tags_tools": [ "Python", "PyTorch" ],
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Security"]
+    },
+    {
       "title": "Music Latent Representation and Disentanglement for Genre Classification",
       "subtitle": "with Ehsan Qasemi, Binh Vu, and Minh Pham",
       "thumbnail": "images/proj_2019_12.jpg",
