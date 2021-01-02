@@ -12,7 +12,7 @@
       },
       "year": "2020",
       "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
-      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration"],
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration" ],
       "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham"
     },
     {
@@ -25,7 +25,7 @@
       },
       "year": "2020",
       "tags_tools": [ "Python", "PyTorch" ],
-      "tags_fields": [ "Deep Learning", "Machine Learning", "Security"]
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Security" ]
     },
     {
       "title": "Music Latent Representation and Disentanglement for Genre Classification",
@@ -37,7 +37,7 @@
       },
       "year": "2019",
       "tags_tools": [ "Python", "PyTorch" ],
-      "tags_fields": [ "Deep Learning", "Machine Learning", "Information Theory"]
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Information Theory" ]
     },
     {
       "title": "Creating a FAIR Data Catalog to Support Scientific Modeling",
@@ -134,8 +134,41 @@
   ],
   "Personal Projects & Others": [
     {
+      "title": "Lime Travelers",
+      "subtitle": "Experimental Electronic Musical Duo - with <a target=\"_blank\" href=\"https://www.juancroldan.com/\">Juan Carlos Roldán</a>",
+      "thumbnail": "images/p_proj_2021.jpg",
+      "desc": "A peculiar journey of Lo-Fi, space and 8-bit sounds.",
+      "links": {
+        "Preview": "https://www.instagram.com/lime.travelers/"
+      },
+      "year": "2021-Present",
+      "tags_fields": [ "Music Production" ]
+    },
+    {
+      "title": "Bas el Art <span dir=\"rtl\">بس الارت</span>",
+      "subtitle": "Personal Art Collection",
+      "thumbnail": "images/p_proj_2020.png",
+      "desc": "A collection of figure drawings, sketches, paintings, digital designs and additional forms of art I have created and crafted.",
+      "links": {
+        "Check It Out": "https://www.instagram.com/_baselart/"
+      },
+      "year": "2020-Present",
+      "tags_fields": [ "Art" ]
+    },
+    {
+      "title": "<i>untitled</i>",
+      "subtitle": "Personal Music Production Collection",
+      "thumbnail": "images/p_proj_2017.png",
+      "desc": "A collection of self-produced electronic experimental short tracks.",
+      "links": {
+        "Check It Out": "https://soundcloud.com/basels/"
+      },
+      "year": "2017-Present",
+      "tags_fields": [ "Music Production" ]
+    },
+    {
       "title": "Dreams",
-      "subtitle": "Metaburn",
+      "subtitle": "Metaburn - with <a target=\"_blank\" href=\"https://galbracha.com/\">Gal Bracha</a>",
       "thumbnail": "images/p_proj_01.jpg",
       "desc": "A platform for planning and crowdfunding co-created events. This version was the adoption of the Midburn - Israeli Burning Man regional community.",
       "links": {
@@ -144,7 +177,7 @@
       },
       "year": "2016-2018",
       "tags_tools": [ "Ruby on Rails", "JS", "CSS" ],
-      "tags_fields": [ "Web", "Fullstack"]
+      "tags_fields": [ "Web", "Fullstack" ]
     },
     {
       "title": "Distance Based Spiral",

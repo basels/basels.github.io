@@ -1,7 +1,7 @@
 HTML_HEADER_START = '''<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Basel Shbita</title>
+    <title>Basel Shbita - Projects</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
@@ -10,6 +10,15 @@ HTML_HEADER_START = '''<!DOCTYPE html>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/2bcd4e2c08.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG4E7K5KKQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KG4E7K5KKQ');
+    </script>
   </head>
   <body>
     <header>
@@ -44,7 +53,7 @@ HTML_HEADER_END = '''
 
 HTML_FOOTER = '''
   <footer class="footer">
-    <small>© 2019 Basel Shbita</small>
+    <small>© 2021 Basel Shbita</small>
   </footer>
 '''
 

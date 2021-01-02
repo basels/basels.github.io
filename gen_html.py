@@ -97,10 +97,12 @@ def generate_post(post):
     wfile.write(f'<li class="list-group-item" style="overflow: auto">\n')
     wfile.write(f'<div class="card-footer text-muted" style="width: 20%; float:left; text-align: left">{post["year"]}</div>\n')
     wfile.write('<div style="width: 80%; float:right; text-align: right">\n')
-    for itm in post['tags_tools']:
-        wfile.write(bd.CARD_TAG_TOOL % (itm))
-    for itm in post['tags_fields']:
-        wfile.write(bd.CARD_TAG_FIELD % (itm))
+    if 'tags_tools' in post:
+        for itm in post['tags_tools']:
+            wfile.write(bd.CARD_TAG_TOOL % (itm))
+    if 'tags_fields' in post:
+        for itm in post['tags_fields']:
+            wfile.write(bd.CARD_TAG_FIELD % (itm))
     wfile.write('</div>\n')
     wfile.write('</li>\n')
 
