@@ -76,6 +76,149 @@ p {
   text-decoration: none;
 }
 
+.resume_icon_css {
+  width: 110px;
+  height: 74px;
+  background: url("../images/icons/resume.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.resume_icon_css:hover {
+  background: url("../images/icons/resume_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.cv_icon_css {
+  width: 58px;
+  height: 68px;
+  background: url("../images/icons/cv.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.cv_icon_css:hover {
+  background: url("../images/icons/cv_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.googlescholar_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/googlescholar.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.googlescholar_icon_css:hover {
+  background: url("../images/icons/googlescholar_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.researchgate_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/researchgate.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.researchgate_icon_css:hover {
+  background: url("../images/icons/researchgate_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.semanticscholar_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/semanticscholar.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.semanticscholar_icon_css:hover {
+  background: url("../images/icons/semanticscholar_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.linkedin_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/linkedin.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.linkedin_icon_css:hover {
+  background: url("../images/icons/linkedin_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.github_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/github.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.github_icon_css:hover {
+  background: url("../images/icons/github_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.twitter_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/twitter.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.twitter_icon_css:hover {
+  background: url("../images/icons/twitter_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.instagram_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/instagram.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.instagram_icon_css:hover {
+  background: url("../images/icons/instagram_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.rarible_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/rarible.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.rarible_icon_css:hover {
+  background: url("../images/icons/rarible_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.soundcloud_icon_css {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/soundcloud.png") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.soundcloud_icon_css:hover {
+  background: url("../images/icons/soundcloud_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+
 #spcl-fnt {
   font-family: 'VT323', monospace;
 }
