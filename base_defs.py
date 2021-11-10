@@ -57,10 +57,6 @@ HTML_FOOTER = '''
   </footer>
 '''
 
-CARD_LINK = '''
-<p class="card-text" style="text-align: right; margin: 0px;"><a target="_blank" href="%s" class="card-link">%s</a></p>
-'''
-
 CARD_TAG_TOOL = '''
 <span class="badge">%s</span>
 '''

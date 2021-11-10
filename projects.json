@@ -1,25 +1,114 @@
 {
-  "Educational Projects & Research": [
+  "Ongoing Research Projects": [
     {
-      "title": "Building Linked Spatio-Temporal Data from Vectorized Historical Maps",
-      "subtitle": "with Craig A. Knoblock, Weiwei Duan, Yao-Yi Chiang, Johannes H. Uhl, and Stefan Leyk",
+      "title": "Linked Maps",
       "thumbnail": "images/proj_2020_02.jpg",
-      "desc": "Worked on an unsupervised approach to convert vector data of geographic features extracted from multiple historical maps (i.e. railroad network) into linked spatio-temporal data. The resulting graphs can be easily queried and visualized to understand the changes in specific regions over time and fuel additional discovery in linked open vocabularies.",
+      "desc": "Exploiting Context in Cartographic Evolutionary Documents to Extract and Build Linked Open Spatio-Temporal Data",
       "links": {
-        "Link": "https://link.springer.com/chapter/10.1007/978-3-030-49461-2_24",
-        "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf",
-        "Code": "https://github.com/usc-isi-i2/linked-maps"
+        "Project Website": "https://usc-isi-i2.github.io/linked-maps/"
       },
-      "year": "2020",
+      "year": "2020-Present",
       "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration" ],
-      "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham"
+      "publications": [
+        {
+          "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham",
+          "links": {
+            "Link": "https://link.springer.com/chapter/10.1007/978-3-030-49461-2_24",
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf",
+            "Code": "https://github.com/usc-isi-i2/linked-maps",
+            "Explorer": "https://linked-maps.isi.edu"
+          }
+        },
+        {
+          "citation": "Li, Z., Chiang, Y. Y., Tavakkol, S., <b>Shbita, B.</b>, Uhl, J. H., Leyk, S., & Knoblock, C. A. (2020, August). An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images. In <i>Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining</i> (pp. 3290-3298)",
+          "links": {
+            "Link": "https://dl.acm.org/doi/abs/10.1145/3394486.3403381",
+            "Paper": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403381"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Table Understanding",
+      "thumbnail": "images/proj_2019_05.jpg",
+      "desc": "Extracting and Interpreting Time Series for Causal Discovery",
+      "links": {
+        "Project Website": "https://usc-isi-i2.github.io/Timeseries/"
+      },
+      "year": "2019-Present",
+      "tags_tools": [ "Python", "TTL/RDF" ],
+      "tags_fields": [ "Semantic Web", "Linked Data", "Knowledge Graphs", "Information Integration", "NLP"],
+      "publications": [
+        {
+          "citation": "<b>Shbita, B.</b>, Rajendran, A., Pujara, J., & Knoblock, C. A. (2019). Parsing, Representing and Transforming Units of Measure. In <i>Modeling the World’s Systems</i>",
+          "links": {
+            "Paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf",
+            "Poster": "docs/shbita_momacs19_poster.pdf",
+            "Code": "https://github.com/basels/ccut"
+          }
+        }
+      ]
+    },
+    {
+      "title": "MINT (Model INTegration)",
+      "thumbnail": "images/proj_2019_09.jpg",
+      "desc": "Scientific Model Integration through Knowledge-Rich Data and Process Composition",
+      "links": {
+        "Project Website": "http://mint-project.info/"
+      },
+      "year": "2019-Present",
+      "tags_tools": [ "Python", "TTL/RDF" ],
+      "tags_fields": ["Linked Data", "Knowledge Graphs", "Information Integration"],
+      "publications": [
+        {
+          "citation": "<b>Shbita, B.</b>, Vu, B., Feldman, D., Pham, M., Rajendran, A., Knoblock, C. A., Pujara, J., & Chiang, Y. Y. (2019). Creating a FAIR Data Catalog to Support Scientific Modeling. In <i>Workshop on Advanced Knowledge Technologies for Science in a FAIR World (AKTS)</i>",
+          "links": {
+            "Paper": "http://mint-project.info/assets/publications/shbita-etal-escience19.pdf"
+          }
+        }
+      ]
+    }
+  ],
+  "Completed Research & Educational Projects": [
+    {
+      "title": "Viola @ Socialbot Grand Challenge 4",
+      "subtitle": "university challenge to advance human-computer interaction (semi-finalists)",
+      "thumbnail": "images/proj_2021_07.jpg",
+      "desc": "An open-domain dialogue system for spoken conversation that uses a topic-agnostic dialogue manager based on a simple generate-and-rank approach.",
+      "links": {
+        "Team Webpage": "https://developer.amazon.com/alexaprize/challenges/current-challenge/teams/viola"
+      },
+      "year": "2020-2021",
+      "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Conversational Bot"],
+      "publications": [
+        {
+          "citation": "H. Cho, <b>B. Shbita</b>, K. Shenoy, S. Liu, N. Patel, H. Pindikanti, J. Lee, and J. May. (2021). Viola: A Topic Agnostic Generate-and-Rank Dialogue System. In <i>Proceedings of the 4th Alexa Prize</i>",
+          "links": {
+            "Link": "https://arxiv.org/abs/2108.11063",
+            "Paper": "https://arxiv.org/pdf/2108.11063.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Augmenting Conversational Dialogue Datasets with Commonsense and Adaptive Local Knowledge",
+      "subtitle": "with Hyundong Cho",
+      "thumbnail": "images/proj_2020_12.jpg",
+      "desc": "Designed a dialogue dataset augmentation framework to expand multi-turn dialogue systems to incorporate external knowledge sources and ground pre-trained language models with commonsense reasoning. <br>Project conducted as part of the 'CSCI 662: Advanced Natural Language Processing' class.",
+      "links": {
+        "Paper": "docs/shbita_cs662_augmenting.pdf"
+      },
+      "year": "2020",
+      "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Conversational Bot"]
     },
     {
       "title": "Robust Defense Against Lp-Norm-Based Attacks by Learning Robust Representations",
       "subtitle": "with Iordanis Fostiropoulos, and Myrl Marmarelis",
       "thumbnail": "images/proj_2020_06.jpg",
-      "desc": "Investigated the vulnerablity of image classifiers to adversarial perturbations and proposed a new regularization objective based on the Euclidean distance between classes in the hypothetical latent space found in the features of the penultimate layer. <br>Our approach is significantly more robust than that of the previous state of the art, and entails an insignificant fine-tuning of existing models. <br>Project conducted as part of the 'CSCI 699: Adversarial Machine Learning' class.",
+      "desc": "Investigated the vulnerablity of image classifiers to adversarial perturbations and proposed a new regularization objective based on the Euclidean distance between classes in the hypothetical latent space found in the features of the penultimate layer. <br>Project conducted as part of the 'CSCI 699: Adversarial Machine Learning' class.",
       "links": {
         "Paper": "docs/shbita_cs699_robust.pdf"
       },
@@ -31,7 +120,7 @@
       "title": "Music Latent Representation and Disentanglement for Genre Classification",
       "subtitle": "with Ehsan Qasemi, Binh Vu, and Minh Pham",
       "thumbnail": "images/proj_2019_12.jpg",
-      "desc": "Investigated the use of unsupervised representation learning techniques to compress musical samples into a low-dimensional representation and use it for the task of music genre classification. <br>We facilitated the robust learning of disentangled representations (i.e., features like genre) by increasing the information capacity of the latent code during training. The training and evaluation of the models were done using the FMA public dataset. <br>Project conducted as part of the 'CSCI 699: Representation Learning: Theory and Practice' class.",
+      "desc": "Investigated the use of unsupervised representation learning techniques to compress musical samples into a low-dimensional representation and use it for the task of music genre classification. <br>Project conducted as part of the 'CSCI 699: Representation Learning: Theory and Practice' class.",
       "links": {
         "Paper": "docs/shbita_cs699_music.pdf"
       },
@@ -40,38 +129,10 @@
       "tags_fields": [ "Deep Learning", "Machine Learning", "Information Theory" ]
     },
     {
-      "title": "Creating a FAIR Data Catalog to Support Scientific Modeling",
-      "subtitle": "with Binh Vu, Minh Pham, Dan Feldman, Arun Rajendran, Prof. Craig A. Knoblock, Prof. Jay Pujara, and Prof. Yao-Yi Chiang",
-      "thumbnail": "images/proj_2019_09.jpg",
-      "desc": "Worked on combining, transforming and reformatting datasets and on identifying units of measurement in scientific data as part of a Data Catalog that provides a central clearinghouse for metadata about scientific datasets.<br>The framework supports fuzzy searching for data variables using NLP techniques, provides a number of automated, data-understanding tools to make data curation easier, and automates the processes for data processing and transformation for different use cases.",
-      "links": {
-        "Paper": "http://mint-project.info/assets/publications/shbita-etal-escience19.pdf"
-      },
-      "year": "2019",
-      "tags_tools": [ "Python", "TTL/RDF" ],
-      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration", "NLP"],
-      "citation": "<b>Shbita, B.</b>, Vu, B., Feldman, D., Pham, M., Rajendran, A., Knoblock, C. A., Pujara, J., & Chiang, Y. Y. (2019). Creating a FAIR Data Catalog to Support Scientific Modeling. In <i>Workshop on Advanced Knowledge Technologies for Science in a FAIR World (AKTS)</i>"
-    },
-    {
-      "title": "Parsing, Representing and Transforming Units of Measure",
-      "subtitle": "with Arun Rajendran, Dr. Jay Pujara, and Prof. Craig A. Knoblock (University of Southern California)",
-      "thumbnail": "images/proj_2019_05.jpg",
-      "desc": "Proposed a baseline unsupervised approach to identify units of measurement in source data, provide a corresponding semantic representation and a method (API) that enables data transformations such as unit conversions.<br>Our prototype system, called CCUT, uses grammar tools to automatically parse the different components in a unit found in textual data in files and maps them to elements of a standard ontology defined by NASA to form a structured semantic output.",
-      "links": {
-        "Paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf",
-        "Poster": "docs/shbita_momacs19_poster.pdf",
-        "Code": "https://github.com/basels/ccut"
-      },
-      "year": "2019",
-      "tags_tools": [ "Python", "TTL/RDF" ],
-      "tags_fields": [ "Semantic Web", "Linked Data", "Knowledge Graphs", "Information Integration" ],
-      "citation": "<b>Shbita, B.</b>, Rajendran, A., Pujara, J., & Knoblock, C. A. (2019). Parsing, Representing and Transforming Units of Measure. In <i>Modeling the World’s Systems</i>"
-    },
-    {
       "title": "Marvel and DC-Comics comic-books Knowledge Graph",
       "subtitle": "Supervisors: Prof. Pedro Szekely, Dr. Jay Pujara (University of Southern California)",
       "thumbnail": "images/proj_06.jpg",
-      "desc": "Planned, designed, implemented and deployed a knowledge graph which captures Marvel and DC-Comics brands comic-book characters, comic-book issues and movies. <br>The system allows users to analyze data and easily navigate the KG and obtain insights for any question in this domain.<br>Project conducted as part of the 'INF 558/CSCI 563: Building Knowledge Graphs' class. Project includes web crawling, information extraction, source alignment, entity linking, ontology definition, querying knowledge graphs, data cleaning, image color analysis and RDF triples generation.",
+      "desc": "Planned, designed, implemented and deployed a knowledge graph which captures Marvel and DC-Comics brands comic-book characters, comic-book issues and movies. <br>Project conducted as part of the 'INF 558/CSCI 563: Building Knowledge Graphs' class.",
       "links": {
         "Report": "https://github.com/basels/Marvel-and-DC-Comic-books-KG/blob/master/final_submission/Basel_Shbita_Ke_Xu_project_summary.pdf",
         "Slides": "https://github.com/basels/Marvel-and-DC-Comic-books-KG/blob/master/final_submission/Basel_Shbita_Ke_Xu_final_presentation.pdf",
@@ -104,7 +165,7 @@
       "title": "Logic Design of Full Simplified DLX using FPGA",
       "subtitle": "Supervisors: Mrs. Liron David, Mr. Marko Markov (Tel Aviv University)",
       "thumbnail": "images/proj_04.jpg",
-      "desc": "This project includes hardware design, implementation and debugging of a simple RISC processor (including data and control planes) on an FPGA development platform.<br>Used Xilinx software package and RESA software suite to code schematic and hardware description language (VHDL) designs and conduct logical simulations.<br>The project also included writing and executing of Assembly programs on the design.<br>Project conducted as part of the 'Advanced Computer Structure Lab' course.",
+      "desc": "This project includes hardware design, implementation and debugging of a simple RISC processor (including data and control planes) on an FPGA development platform.<br>Used Xilinx software package and RESA software suite to code schematic and hardware description language (VHDL) designs and conduct logical simulations. <br>Project conducted as part of the 'Advanced Computer Structure Lab' course.",
       "year": "2013",
       "tags_tools": [ "VHDL", "Assembly" ],
       "tags_fields": [ "FPGA" ]
@@ -134,19 +195,8 @@
   ],
   "Personal Projects & Others": [
     {
-      "title": "Lime Travelers",
-      "subtitle": "Experimental Electronic Musical Duo - with <a target=\"_blank\" href=\"https://www.juancroldan.com/\">Juan Carlos Roldán</a>",
-      "thumbnail": "images/p_proj_2021.jpg",
-      "desc": "A peculiar journey of Lo-Fi, space and 8-bit sounds.",
-      "links": {
-        "Preview": "https://www.instagram.com/lime.travelers/"
-      },
-      "year": "2021-Present",
-      "tags_fields": [ "Music Production" ]
-    },
-    {
       "title": "Bas el Art <span dir=\"rtl\">بس الارت</span>",
-      "subtitle": "Personal Art Collection",
+      "subtitle": "Personal Visual & Plastic Arts Channel",
       "thumbnail": "images/p_proj_2020.png",
       "desc": "A collection of figure drawings, sketches, paintings, digital designs and additional forms of art I have created and crafted.",
       "links": {
@@ -157,7 +207,7 @@
     },
     {
       "title": "<i>untitled</i>",
-      "subtitle": "Personal Music Production Collection",
+      "subtitle": "Personal Music Production Channel",
       "thumbnail": "images/p_proj_2017.png",
       "desc": "A collection of self-produced electronic experimental short tracks.",
       "links": {
@@ -178,30 +228,6 @@
       "year": "2016-2018",
       "tags_tools": [ "Ruby on Rails", "JS", "CSS" ],
       "tags_fields": [ "Web", "Fullstack" ]
-    },
-    {
-      "title": "Distance Based Spiral",
-      "thumbnail": "images/p_proj_02.jpg",
-      "desc": "This application features a recursive spiral-drawing based on Ultrasonic Distance Sensor data transmitted via an RS-232 serial port.",
-      "year": "2016",
-      "tags_tools": [ "Arduino", "Processing" ],
-      "tags_fields": [ "Interactive DIY Electronics" ]
-    },
-    {
-      "title": "Customized Simple Arduino Synthesizer",
-      "thumbnail": "images/p_proj_04.jpg",
-      "desc": "A self-made sound synthesizer running on Arduino Uno board. The circuit features photoresistors and potentiometers to control the notes (frequency) and timing; the sound is produced with a passive buzzer.",
-      "year": "2016",
-      "tags_tools": [ "Arduino" ],
-      "tags_fields": [ "DIY Electronics" ]
-    },
-    {
-      "title": "Poké-Quest",
-      "thumbnail": "images/p_proj_03.jpg",
-      "desc": "A self made Pokémon-like game running on Processing IDE.<br><br><small>Graphic patterns owned by Nintendo ©</small>",
-      "year": "2015",
-      "tags_tools": [ "Processing" ],
-      "tags_fields": [ "Application" ]
     }
   ]
 }

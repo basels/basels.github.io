@@ -5,6 +5,7 @@ from json import load
 
 # --- entrypoint --------------------------------------------------------------
 
+
 def main():
     global wfile
 
@@ -37,10 +38,12 @@ def main():
 
 # --- generation --------------------------------------------------------------
 
+
 def generate_homepage(content_dict):
     global wfile
 
     wfile.write(bd.HOMEPAGE_TEMP_STR)
+
 
 def generate_all_sections(content_dict):
     global wfile
@@ -51,6 +54,7 @@ def generate_all_sections(content_dict):
         wfile.write(f'<div><h3 style="text-align: left">{sec_title}</h3><hr></div>\n')
         generate_section(posts)
     wfile.write('</section>\n')
+
 
 def generate_section(section_posts):
     global wfile
@@ -72,6 +76,7 @@ def generate_section(section_posts):
     if new_row:
         wfile.write('</div>\n')
 
+
 def generate_post(post):
     global wfile
 
@@ -89,8 +94,24 @@ def generate_post(post):
     wfile.write('<li class="list-group-item">\n')
     wfile.write(f'<p class="card-text" style="text-align: left">{post["desc"]}</p>\n')
     if 'links' in post:
-        for itm_tit, itm_lnk in post['links'].items():
-            wfile.write(bd.CARD_LINK % (itm_lnk, itm_tit))
+        wfile.write('<p class="card-text" style="text-align: right; margin: 0px;">')
+        for itm_id, (itm_tit, itm_lnk) in enumerate(post['links'].items()):
+            wfile.write('<a target="_blank" href="%s" class="card-link">%s</a>' % (itm_lnk, itm_tit))
+            if itm_id != len(post['links']) - 1:
+                wfile.write(" · ")
+        wfile.write('</p>')
+
+    if 'publications' in post:
+        wfile.write(f'<u><p class="card-text" style="text-align: left;font-size: 1em;color: #AA00BB;">Publications</p></u>\n')
+        for pitem in post['publications']:
+            wfile.write(f'<p class="card-text" style="text-align: left">{pitem["citation"]}</p>\n')
+            if 'links' in pitem:
+                wfile.write('<p class="card-text" style="text-align: right; margin: 0px;">')
+                for itm_id, (itm_tit, itm_lnk) in enumerate(pitem['links'].items()):
+                    wfile.write('<a target="_blank" href="%s" class="card-link">%s</a>' % (itm_lnk, itm_tit))
+                    if itm_id != len(pitem['links']) - 1:
+                        wfile.write(" · ")
+                wfile.write('</p>')
     wfile.write('</li>\n')
 
     # post tags
@@ -106,13 +127,8 @@ def generate_post(post):
     wfile.write('</div>\n')
     wfile.write('</li>\n')
 
-    # appendix
-    if 'citation' in post:
-        wfile.write('<li class="list-group-item">\n')
-        wfile.write(f'<p class="card-text" style="text-align: left">{post["citation"]}</p>\n')
-        wfile.write('</li>\n')
-
     wfile.write('</ul>\n')
+
 
 if __name__ == '__main__':
     main()
