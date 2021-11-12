@@ -189,8 +189,7 @@
       },
       "year": "2009",
       "tags_tools": [ "Python" ],
-      "tags_fields": [ "Machine Learning" ],
-      "citation": "B. Shbita and D. Palmer. Improving Text-Independent Speaker Identification Performance Using Gaussian Mixture Speaker Models"
+      "tags_fields": [ "Machine Learning", "NLP" ]
     }
   ],
   "Personal Projects & Others": [
