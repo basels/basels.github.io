@@ -191,42 +191,5 @@
       "tags_tools": [ "Python" ],
       "tags_fields": [ "Machine Learning", "NLP" ]
     }
-  ],
-  "Personal Projects & Others": [
-    {
-      "title": "Bas el Art <span dir=\"rtl\">بس الارت</span>",
-      "subtitle": "Personal Visual & Plastic Arts Channel",
-      "thumbnail": "images/p_proj_2020.png",
-      "desc": "A collection of figure drawings, sketches, paintings, digital designs and additional forms of art I have created and crafted.",
-      "links": {
-        "Check It Out": "https://www.instagram.com/_baselart/"
-      },
-      "year": "2020-Present",
-      "tags_fields": [ "Art" ]
-    },
-    {
-      "title": "<i>untitled</i>",
-      "subtitle": "Personal Music Production Channel",
-      "thumbnail": "images/p_proj_2017.png",
-      "desc": "A collection of self-produced electronic experimental short tracks.",
-      "links": {
-        "Check It Out": "https://soundcloud.com/basels/"
-      },
-      "year": "2017-Present",
-      "tags_fields": [ "Music Production" ]
-    },
-    {
-      "title": "Dreams",
-      "subtitle": "Metaburn - with <a target=\"_blank\" href=\"https://galbracha.com/\">Gal Bracha</a>",
-      "thumbnail": "images/p_proj_01.jpg",
-      "desc": "A platform for planning and crowdfunding co-created events. This version was the adoption of the Midburn - Israeli Burning Man regional community.",
-      "links": {
-        "Check It Out": "https://dreams.midburn.org/?lang=en",
-        "Code": "https://github.com/Midburn/Dreams#readme"
-      },
-      "year": "2016-2018",
-      "tags_tools": [ "Ruby on Rails", "JS", "CSS" ],
-      "tags_fields": [ "Web", "Fullstack" ]
-    }
   ]
 }

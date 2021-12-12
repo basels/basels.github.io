@@ -21,11 +21,10 @@ def main():
 
             wfile.write(bd.HTML_HEADER_START)
             wfile.write('<div class="container center">\n')
+            wfile.write('<h1 id="spcl-fnt" style="text-align: center; font-size: 3.5em; margin-top: -5px; margin-bottom: -5px; color: #3a89ae;">Academic</h1>\n')
 
             if 'projects' in args.output_file:
                 generate_all_sections(json_dict)
-            elif 'index' in args.output_file:
-                generate_homepage(json_dict)
 
             wfile.write(bd.HTML_FOOTER)
             wfile.write('</div>\n')
@@ -39,19 +38,13 @@ def main():
 # --- generation --------------------------------------------------------------
 
 
-def generate_homepage(content_dict):
-    global wfile
-
-    wfile.write(bd.HOMEPAGE_TEMP_STR)
-
-
 def generate_all_sections(content_dict):
     global wfile
 
     wfile.write('<section>\n')
     for sec_title, posts in content_dict.items():
         print(f'Generating section {sec_title}')
-        wfile.write(f'<div><h3 style="text-align: left">{sec_title}</h3><hr></div>\n')
+        wfile.write(f'<div><h3 style="text-align: left; color: #791E94;">{sec_title}</h3><hr></div>\n')
         generate_section(posts)
     wfile.write('</section>\n')
 
@@ -102,7 +95,7 @@ def generate_post(post):
         wfile.write('</p>')
 
     if 'publications' in post:
-        wfile.write(f'<u><p class="card-text" style="text-align: left;font-size: 1em;color: #AA00BB;">Publications</p></u>\n')
+        wfile.write(f'<u><p class="card-text" style="text-align: left;font-size: 1em;color: #000000;">Publications</p></u>\n')
         for pitem in post['publications']:
             wfile.write(f'<p class="card-text" style="text-align: left">{pitem["citation"]}</p>\n')
             if 'links' in pitem:

@@ -1,7 +1,7 @@
 HTML_HEADER_START = '''<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Basel Shbita - Projects</title>
+    <title>Basel Shbita - Academic</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
@@ -38,7 +38,8 @@ HTML_HEADER_START = '''<!DOCTYPE html>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html">Home</a></li>
-              <li><a href="projects.html">Projects</a></li>
+              <li><a href="projects.html">Academic</a></li>
+              <li><a href="art.html">Art</a></li>
             </ul>
           </div>
         </div>
@@ -63,21 +64,4 @@ CARD_TAG_TOOL = '''
 
 CARD_TAG_FIELD = '''
 <span class="badge" style="background-color: #333333">%s</span>
-'''
-
-'''
-    {
-      "title": "",
-      "subtitle": "",
-      "thumbnail": "",
-      "desc": "",
-      "links": {
-        "Paper": "",
-        ...
-      },
-      "year": "",
-      "tags_tools": [ "" ],
-      "tags_fields": [ "" ],
-      "citation": ""
-    }
 '''
