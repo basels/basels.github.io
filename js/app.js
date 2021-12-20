@@ -10,8 +10,8 @@ const selectedImage = document.getElementById('selectedImage');
 
 const imageNamesAnimation = ['cali2pali.gif', 'womensday.gif', 'astronaut.gif', 'falling.gif', 'baloon.gif']
 
-const imageNamesCreativeCoding = ['gifs/gmms.gif',
-    'gifs/bezier_01.gif', 'gifs/bezier_02.gif', 'gifs/bezier_03.gif', 'gifs/bezier_04.gif']
+const imageNamesCreativeCoding = ['gmms.gif',
+    'bezier_01.gif', 'bezier_02.gif', 'bezier_03.gif', 'bezier_04.gif']
 
 const imageNamesGraphicDesign = ['purple_man_001.jpg', 'spacething.jpg', 'ancients.jpg']
 
@@ -19,8 +19,8 @@ const imageNamesDrawing = ['dig_art_01.jpg',
     'sketch_01.jpg', 'sketch_02.jpg', 'sketch_03.jpg', 'sketch_04.jpg',
     'fd_07_01.jpg', 'fd_07_02.jpg', 'fd_07_03.jpg', 'fd_07_04.jpg',
     'fd_06_01.jpg', 'fd_06_02.jpg', 'fd_06_03.jpg', 'fd_06_04.jpg',
-    'fd_05_01.jpg', 'fd_05_03.jpg',
-    'fd_04_01.jpg', 'fd_04_02.jpg', 'fd_04_03.jpg', 'fd_04_04.jpg', 'fd_04_05.jpg',
+    'fd_05_01.jpg', 'fd_05_02.jpg',
+    'fd_04_01.jpg', 'fd_04_02.jpg',
     'fd_03_01.jpg', 'fd_03_02.jpg', 'fd_03_03.jpg', 'fd_03_04.jpg'];
 
 const imageNamesPainting = ['pnt_05.jpg', 'pnt_04.jpg', 'pnt_03.jpg', 'pnt_02.jpg', 'pnt_01.jpg']
@@ -31,7 +31,7 @@ const selectedIndex = null;
 
 imageNamesAnimation.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/gifs/' + i;
+    image.src = 'images/art/thumbs/thumb_' + i;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
@@ -43,19 +43,19 @@ imageNamesAnimation.forEach(i => {
 
 imageNamesCreativeCoding.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/' + i;
+    image.src = 'images/art/thumbs/thumb_' + i;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
         popup.style.transform = 'translateY(0)';
-        selectedImage.src = 'images/art/' + i;
+        selectedImage.src = 'images/art/gifs/' + i;
     })
     gallery_creativecoding.appendChild(image);
 })
 
 imageNamesGraphicDesign.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/popart/' + i;
+    image.src = 'images/art/thumbs/thumb_' + i;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
@@ -67,7 +67,7 @@ imageNamesGraphicDesign.forEach(i => {
 
 imageNamesDrawing.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/drawing/' + i;
+    image.src = 'images/art/thumbs/thumb_' + i;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
@@ -79,7 +79,7 @@ imageNamesDrawing.forEach(i => {
 
 imageNamesPainting.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/painting/' + i;
+    image.src = 'images/art/thumbs/thumb_' + i;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
@@ -91,7 +91,7 @@ imageNamesPainting.forEach(i => {
 
 imageNamesPlasticArts.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/plasticarts/' + i;
+    image.src = 'images/art/thumbs/thumb_' + i;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {

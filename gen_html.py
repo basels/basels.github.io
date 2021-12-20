@@ -46,6 +46,15 @@ def generate_all_sections(content_dict):
         print(f'Generating section {sec_title}')
         wfile.write(f'<div><h3 style="text-align: left; color: #791E94;">{sec_title}</h3><hr></div>\n')
         generate_section(posts)
+    wfile.write('<hr><div>' +
+      '<p>looking for more? check out my academic handles</p>' +
+      '<a target="_blank" href="https://scholar.google.com/citations?user=tzFPunMAAAAJ"><div class="googlescholar_icon_css"></div></a>&nbsp' +
+      '<a target="_blank" href="https://www.researchgate.net/profile/Basel_Shbita"><div class="researchgate_icon_css"></div></a>&nbsp' +
+      '<a target="_blank" href="https://www.semanticscholar.org/author/B.-Shbita/1720805839"><div class="semanticscholar_icon_css"></div></a>&nbsp' +
+      '<a target="_blank" href="https://www.linkedin.com/in/baselshbita/"><div class="linkedin_icon_css"></div></a>&nbsp' +
+      '<a target="_blank" href="https://github.com/basels"><div class="github_icon_css"></div></a>&nbsp' +
+      '<a target="_blank" href="https://twitter.com/basels92"><div class="twitter_icon_css"></div></a>' +
+    '</div>\n')
     wfile.write('</section>\n')
 
 
