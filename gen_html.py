@@ -21,7 +21,6 @@ def main():
 
             wfile.write(bd.HTML_HEADER_START)
             wfile.write('<div class="container center">\n')
-            wfile.write('<h1 id="spcl-fnt" style="text-align: center; font-size: 3.5em; margin-top: -5px; margin-bottom: -5px; color: #3a89ae;">Academic</h1>\n')
 
             if 'projects' in args.output_file:
                 generate_all_sections(json_dict)
