@@ -61,6 +61,29 @@
       <h5 style="text-align: left; color: #7c7c7c;">digital artworks minted as NFTs (non-fungible tokens) on the Ethereum blockchain</h5><hr>
 
       <div class="col-md-12">
+        <!-- NFT: Stuck in a Truffle-loop -->
+        <div class="card col-md-4">
+            <a href="nft/nft_stuckinatruffleloop.html" style="text-decoration:none" >
+              <ul class="list-group list-group-flush nftCard">
+                <li class="list-group-item">
+                    <h5 class="card-title"><b><i>Stuck in a Truffle-loop</i></b></h5>
+                </li>
+                <li class="list-group-item">
+                    <img src="images/art/gifs/stuck_in_a_truffleloop.gif" />
+                </li>
+                <li class="list-group-item">
+                    <p class="card-text" style="text-align: left"><b>Short video-loop</b>, hand-drawn frame-by-frame, visualizing the endless de- and re-composition of one's self.<br><br>The 1st collectible of a collection of transformational loops originating from other realms.</p>
+                </li>
+                <li class="list-group-item" style="overflow: auto">
+                    <div style="width: 80%; float:right; text-align: right">
+                        <img src="images/art/gifs/arrow.gif" width="20%" />
+                        <b>available</b> as <span class="badge" style="background-color: #f9da4a; color: #000000">NFT</span>
+                    </div>
+                </li>
+              </ul>
+            </a>
+        </div>
+
         <!-- NFT: Dreams of Palestine -->
         <div class="card col-md-4">
             <a href="nft/nft_dreamsofpali.html" style="text-decoration:none" >
@@ -83,29 +106,6 @@
                 </ul>
             </a>
             <br>
-        </div>
-
-        <!-- NFT: Stuck in a Truffle-loop -->
-        <div class="card col-md-4">
-            <a href="nft/nft_stuckinatruffleloop.html" style="text-decoration:none" >
-              <ul class="list-group list-group-flush nftCard">
-                <li class="list-group-item">
-                    <h5 class="card-title"><b><i>Stuck in a Truffle-loop</i></b></h5>
-                </li>
-                <li class="list-group-item">
-                    <img src="images/art/gifs/stuck_in_a_truffleloop.gif" />
-                </li>
-                <li class="list-group-item">
-                    <p class="card-text" style="text-align: left"><b>Short video-loop</b>, hand-drawn frame-by-frame, visualizing the endless de- and re-composition of one's self.<br><br>The 1st collectible of a collection of transformational loops originating from other realms.</p>
-                </li>
-                <li class="list-group-item" style="overflow: auto">
-                    <div style="width: 80%; float:right; text-align: right">
-                        <img src="images/art/gifs/arrow.gif" width="20%" />
-                        <b>available</b> as <span class="badge" style="background-color: #f9da4a; color: #000000">NFT</span>
-                    </div>
-                </li>
-              </ul>
-            </a>
         </div>
       </div>
     </div>
@@ -160,7 +160,18 @@
   </div>
 
   <div id="popup">
-      <img src="" alt="" id="selectedImage">
+      <div class="col-md-12" style="height: 100%; width: 100%;">
+        <div class="card col-md-6" >
+            <img src="" alt="" id="selectedImage" style="height: 100%; width: 100%;">
+        </div>
+        <div class="card col-md-6">
+          <h1 class="galleryImgHeaderFont" id="selectedImageHeader"></h1>
+          <br>
+          <h2 class="galleryImgSubHeaderFont" id="selectedImageSubHeader"></h2>
+          <br>
+          <h2 class="galleryImgBodyFont" id="selectedImageBody"></h2>
+        </div>
+      </div>
   </div>
   <script src="js/app.js"></script>
 
