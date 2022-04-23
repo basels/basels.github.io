@@ -19,11 +19,11 @@ class galImgEle {
 }
 
 const imageNamesAnimation = [
-    new galImgEle('ramadan_cali_2022.gif', 'Ramadan 2022', 'JANUARY 4, 2022', 'Ramadan is community. Ramadan is reflection. Ramadan is fasting. Ramadan is prayer. Ramadan Kareem.<br><br>Short animated pixelart loop. Drawn with drawing-pad in Adobe Photoshop then tweened in Adobe Animate.'),
+    new galImgEle('ramadan_cali_2022.gif', 'Ramadan 2022', 'APRIL 2, 2022', 'Ramadan is community. Ramadan is reflection. Ramadan is fasting. Ramadan is prayer. Ramadan Kareem.<br><br>Short animated pixelart loop. Drawn with drawing-pad in Adobe Photoshop then tweened in Adobe Animate.'),
     new galImgEle('2022_tiger.gif', '2022. Year of the Tiger', 'JANUARY 4, 2022', 'A year summoning traits of bravery and competitiveness, but also generosity and charm.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
     new galImgEle('cali2pali.gif', 'From Cali to Pali', 'MAY 21, 2021', 'A call to Save Sheikh Jarrah and stop the attack on Gaza during the 2021 Israel–Palestine crisis.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
-    new galImgEle('womensday.gif', "Women's Day 2021", 'MARCH 8, 2021', "Celebrating all women around the globe on International Women's Day.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate with pop-up elements combined."),
     new galImgEle('astronaut.gif', 'No land to fall into', 'MARCH 30, 2021', 'Endless fall, into infinity and beyond, into self and outwards.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
+    new galImgEle('womensday.gif', "Women's Day 2021", 'MARCH 8, 2021', "Celebrating all women around the globe on International Women's Day.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate with pop-up elements combined."),
     new galImgEle('falling.gif', 'Are you woke?', 'JUNE 6, 2020', "If you let go, you shall find, your true self.<br><br>Short animated loop. Hand-drawn then post-processed in Adobe Photoshop."),
     new galImgEle('balloon.gif', 'Untitled (Draft#008)', 'MARCH 12, 2020', "In my world of my own, this balloon can be anything.<br><br>Short animated loop. Hand-drawn.")];
 
@@ -43,7 +43,7 @@ const imageNamesGraphicDesign = [
 
 
 const imageNamesCreativeCoding = [
-new galImgEle('escaping_the_covid.gif', 'Escaping the COVID', 'APRIL 5, 2020', 'Escaping to a different realm.<br><br>20-second video made from an art-coding project during the COVID-19 pandemic. Generated using processing IDE (some graphics was drawn on Adobe Photoshop, some adopted from Nintendo (thanks!)).'),
+    new galImgEle('escaping_the_covid.gif', 'Escaping the COVID', 'APRIL 5, 2020', 'Escaping to a different realm.<br><br>20-second video made from an art-coding project during the COVID-19 pandemic. Generated using processing IDE (some graphics was drawn on Adobe Photoshop, some adopted from Nintendo (thanks!)).'),
     new galImgEle('gmms.gif', '0rgan1sm#032', 'MAY 2, 2020', 'Randomly generated organism #032. "Is it really there or is that just my anxiety?"<br><br>Short animated loop. Generated using Python.'),
     new galImgEle('bezier_01.gif', 'Chann3l#01', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #01.<br><br>Short animated loop. Generated using processing IDE.'),
     new galImgEle('bezier_02.gif', 'Chann3l#02', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #02.<br><br>Short animated loop. Generated using processing IDE.'),
