@@ -37,9 +37,12 @@ const imageNamesPainting = [
     new galImgEle('pnt_03.jpg', 'Haram esh-Sharif, Jerusalem', 'SEPTEMBER 8, 2006', 'Dome of the Rock & the Haram esh-Sharif compound in East Jerusalem.<br><br>Acrylic on canvas.')];
 
 const imageNamesGraphicDesign = [
-    new galImgEle('purple_man_001.jpg', 'PurpleMan#01', 'NOVEMBER 8, 2021', 'The first digital collage in the twisted multi-dimensionally interlaced "Purple Man" series.<br><br>Digital pop art collage made with Adobe Photoshop.'),
+    new galImgEle('i_am_the_moon.jpg', 'I am the moon', 'MARCH 26, 2022', 'Digital pop art collage made with Adobe Photoshop.'),
+    new galImgEle('being_of_god_of_self.jpg', 'A being of god. A being of self', 'FEBRUARY 19, 2022', 'Digital pop art collage made with Adobe Photoshop. Combines generative elements generated using processing IDE.'),
+    new galImgEle('eternal_journey_of_growth.jpg', 'The eternal journey of growth', 'FEBRUARY 10, 2022', 'Digital pop art collage made with Adobe Photoshop.'),
+    new galImgEle('purple_man_001.jpg', 'The colonialism game', 'NOVEMBER 8, 2021', 'Digital pop art collage made with Adobe Photoshop.'),
     new galImgEle('spacething.jpg', 'Andromeda, we have a problem.', 'MARCH 6, 2021', "The mind is a tool, you can hear it out, but you don't have to follow its orders. Ask it to move over. Take over the driver's seat. You are in charge now.<br><br>Digital pop art collage made with Adobe Photoshop."),
-    new galImgEle('ancients.jpg', 'I am mine and (belong) only to myself', 'JUNE 28, 2020', 'The psychological chains and patriarchal warfare are soon to be broken by the chain-breaker.<br><br>Digital pop art collage made with Adobe Photoshop.')];
+    new galImgEle('ancients.jpg', 'I am mine and (belong) only to myself', 'JUNE 28, 2020', 'The psychological chains and patriarchy will be broken.<br><br>Digital pop art collage made with Adobe Photoshop.')];
 
 
 const imageNamesCreativeCoding = [
