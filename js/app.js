@@ -78,9 +78,9 @@ const imageNamesDrawing = [
 
 const imageNamesPlasticArts = [
     new galImgEle('clay.jpg', 'Self-portrait (clay)', '2004', '"Basel" is written in English (top), Arabic (left) & Hebrew (bottom).<br><br>Clay.'),
-    new galImgEle('concrete.jpg', '"Basel" in concrete', '2005-2006', '"Basel" 3D sculpture<br><br>Ytong Autoclaved Aerated Concrete (AAC).'),
-    new galImgEle('gypsum.jpg', 'Fist of the brave', '2005', '<br><br>Gypsum casting. Alginate to create the mold.'),
-    new galImgEle('plasticine.jpg', 'Owl, whale & frog lamp', '2005', 'Sculptural lamp.<br><br>Air-dry clay (plasticine) and acrylic paint.')];
+    new galImgEle('concrete.jpg', '"Basel" (concrete)', '2005-2006', '"Basel" 3D sculpture<br><br>Ytong Autoclaved Aerated Concrete (AAC).'),
+    new galImgEle('gypsum.jpg', 'Fist of the brave (gypsum)', '2005', '<br><br>Gypsum casting. Alginate to create the mold.'),
+    new galImgEle('plasticine.jpg', 'Owl, Whale & Iguana (clay)', '2005', 'Sculptural lamp.<br><br>Air-dry clay (plasticine) and acrylic paint.')];
 
 const selectedIndex = null;
 
