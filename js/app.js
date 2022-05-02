@@ -31,6 +31,7 @@ const imageNamesPainting = [
     new galImgEle('pnt_09.jpg', 'Portrait of Lina Shbita', 'MARCH 15, 2022', 'Acrylic & collage (mixed media) on canvas.'),
     new galImgEle('pnt_08.jpg', 'Portrait of Hadar Cohen', 'MARCH 2, 2022', 'Acrylic & collage (mixed media) on canvas.'),
     new galImgEle('pnt_07.jpg', 'Portrait of Nader Sid-Ahmad & Sara Osman', 'FEBRUARY 27, 2022', 'Acrylic & collage (mixed media) on canvas.'),
+    new galImgEle('pnt_10.jpg', 'Portrait of Ehsan Qasemi', 'JANUARY 13, 2022', 'Acrylic on canvas.'),
     new galImgEle('pnt_06.jpg', 'Portrait of Brandy Carstens &  Athier Mousawi', 'JUNE 6, 2021', 'Acrylic on canvas.'),
     new galImgEle('pnt_05.jpg', 'Portrait of Hala Kaddoura', 'APRIL 19, 2020', 'Acrylic & collage (mixed media) on canvas.'),
     new galImgEle('pnt_04.jpg', 'Suba', 'DECEMBER 29, 2006', 'Taken from a larger pirate-themed family portrait.<br><br>Acrylic on canvas.'),
@@ -44,7 +45,6 @@ const imageNamesGraphicDesign = [
     new galImgEle('spacething.jpg', 'Andromeda, we have a problem.', 'MARCH 6, 2021', "The mind is a tool, you can hear it out, but you don't have to follow its orders. Ask it to move over. Take over the driver's seat. You are in charge now.<br><br>Digital pop art collage made with Adobe Photoshop."),
     new galImgEle('ancients.jpg', 'I am mine and (belong) only to myself', 'JUNE 28, 2020', 'The psychological chains and patriarchy will be broken.<br><br>Digital pop art collage made with Adobe Photoshop.')];
 
-
 const imageNamesCreativeCoding = [
     new galImgEle('escaping_the_covid.gif', 'Escaping the COVID', 'APRIL 5, 2020', 'Escaping to a different realm.<br><br>20-second video made from an art-coding project during the COVID-19 pandemic. Generated using processing IDE (some graphics was drawn on Adobe Photoshop, some adopted from Nintendo (thanks!)).'),
     new galImgEle('gmms.gif', '0rgan1sm#032', 'MAY 2, 2020', 'Randomly generated organism #032. "Is it really there or is that just my anxiety?"<br><br>Short animated loop. Generated using Python.'),
@@ -53,15 +53,34 @@ const imageNamesCreativeCoding = [
     new galImgEle('bezier_03.gif', 'Chann3l#03', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #03.<br><br>Short animated loop. Generated using processing IDE.'),
     new galImgEle('bezier_04.gif', 'Chann3l#04', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #04.<br><br>Short animated loop. Generated using processing IDE.')];
 
-const imageNamesDrawing = ['dig_art_01.jpg',
-    'sketch_01.jpg', 'sketch_02.jpg', 'sketch_03.jpg', 'sketch_04.jpg',
-    'fd_07_01.jpg', 'fd_07_02.jpg', 'fd_07_03.jpg', 'fd_07_04.jpg',
-    'fd_06_01.jpg', 'fd_06_02.jpg', 'fd_06_03.jpg', 'fd_06_04.jpg',
-    'fd_05_01.jpg', 'fd_05_02.jpg',
-    'fd_04_01.jpg', 'fd_04_02.jpg',
-    'fd_03_01.jpg', 'fd_03_02.jpg', 'fd_03_03.jpg', 'fd_03_04.jpg'];
+const imageNamesDrawing = [
+    new galImgEle('dig_art_01.jpg', "Daft Punk's new Perseverance", 'FEBRUARY 27, 2021', "Daft Punk announced their split just days after NASA's Perseverance rover sent back the first ever sounds from Mars. coincidence?<br><br>Digital drawing and coloring in Adobe Photoshop."),
+    new galImgEle('sketch_01.jpg', 'Digital portrait of Lina Shbita', 'MARCH 15, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
+    new galImgEle('sketch_02.jpg', 'Digital portrait of Tarik Batal', 'APRIL 26, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
+    new galImgEle('sketch_03.jpg', 'Digital portrait of Sarah Abbas', 'APRIL 20, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
+    new galImgEle('sketch_04.jpg', 'Digital self-portrait', 'MARCH 5, 2021', 'Digital coloring in Adobe Photoshop.'),
+    new galImgEle('fd_07_01.jpg', 'Untitled figure drawing #071', 'FEBRUARY 26, 2020', 'Model: Figuratively Aurora<br>10 minute pose.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
+    new galImgEle('fd_07_02.jpg', 'Untitled figure drawing #072', 'FEBRUARY 26, 2020', 'Model: Figuratively Aurora<br>5 minute poses.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
+    new galImgEle('fd_07_03.jpg', 'Untitled figure drawing #073', 'FEBRUARY 26, 2020', 'Model: Figuratively Aurora<br>3-5 minute poses.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
+    new galImgEle('fd_07_04.jpg', 'Untitled figure drawing #074', 'FEBRUARY 26, 2020', 'Model: Figuratively Aurora<br>30-90 second poses.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
+    new galImgEle('fd_06_01.jpg', 'Untitled figure drawing #061', 'MARCH 11, 2020', 'Unknown model<br>10 minute pose.<br><br>Pencil on paper.'),
+    new galImgEle('fd_06_02.jpg', 'Untitled figure drawing #062', 'MARCH 11, 2020', 'Unknown model<br>3-5 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_06_03.jpg', 'Untitled figure drawing #063', 'MARCH 11, 2020', 'Unknown model<br>3-5 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_06_04.jpg', 'Untitled figure drawing #064', 'MARCH 11, 2020', 'Unknown model<br>30-60 second poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_05_01.jpg', 'Untitled figure drawing #051', 'FEBRUARY 12, 2020', 'Unknown model<br>10 minute pose.<br><br>Pencil on paper. Soft coloring and pop art in Adobe Photoshop.'),
+    new galImgEle('fd_05_02.jpg', 'Untitled figure drawing #052', 'FEBRUARY 12, 2020', 'Unknown model<br>5 minute poses.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
+    new galImgEle('fd_04_01.jpg', 'Untitled figure drawing #041', 'NOVEMBER 20, 2019', 'Unknown model<br>1 minute pose.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
+    new galImgEle('fd_04_02.jpg', 'Untitled figure drawing #042', 'NOVEMBER 20, 2019', 'Unknown model<br>30-60 second poses.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
+    new galImgEle('fd_03_01.jpg', 'Untitled figure drawing #031', 'OCTOBER 23, 2019', 'Model: Lucy Smith<br>10 minute pose.<br><br>Pencil on paper.'),
+    new galImgEle('fd_03_02.jpg', 'Untitled figure drawing #032', 'OCTOBER 23, 2019', 'Model: Lucy Smith<br>5-10 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_03_03.jpg', 'Untitled figure drawing #033', 'OCTOBER 23, 2019', 'Model: Lucy Smith<br>3-5 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_03_04.jpg', 'Untitled figure drawing #034', 'OCTOBER 23, 2019', 'Model: Lucy Smith<br>30 second poses.<br><br>Pencil on paper.')];
 
-const imageNamesPlasticArts = ['clay.jpg', 'concrete.jpg', 'gypsum.jpg', 'plasticine.jpg']
+const imageNamesPlasticArts = [
+    new galImgEle('clay.jpg', 'Self-portrait (clay)', '2004', '"Basel" is written in English (top), Arabic (left) & Hebrew (bottom).<br><br>Clay.'),
+    new galImgEle('concrete.jpg', '"Basel" in concrete', '2005-2006', '"Basel" 3D sculpture<br><br>Ytong Autoclaved Aerated Concrete (AAC).'),
+    new galImgEle('gypsum.jpg', 'Fist of the brave', '2005', '<br><br>Gypsum casting. Alginate to create the mold.'),
+    new galImgEle('plasticine.jpg', 'Owl, whale & frog lamp', '2005', 'Sculptural lamp.<br><br>Air-dry clay (plasticine) and acrylic paint.')];
 
 const selectedIndex = null;
 
@@ -127,26 +146,30 @@ imageNamesCreativeCoding.forEach(i => {
 
 imageNamesDrawing.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/thumbs/thumb_' + i;
+    image.src = 'images/art/thumbs/thumb_' + i.filename;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
         popup.style.transform = 'translateY(0)';
-        selectedImage.src = 'images/art/drawing/' + i;
-        selectedImageHeader.innerHTML = '<i>Untitled</i>';
+        selectedImage.src = 'images/art/drawing/' + i.filename;
+        selectedImageHeader.innerHTML = i.title;
+        selectedImageSubHeader.innerHTML = i.subtitle;
+        selectedImageBody.innerHTML = i.body;
     })
     gallery_drawing.appendChild(image);
 })
 
 imageNamesPlasticArts.forEach(i => {
     const image = document.createElement('img');
-    image.src = 'images/art/thumbs/thumb_' + i;
+    image.src = 'images/art/thumbs/thumb_' + i.filename;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
         popup.style.transform = 'translateY(0)';
-        selectedImage.src = 'images/art/plasticarts/' + i;
-        selectedImageHeader.innerHTML = '<i>Untitled</i>';
+        selectedImage.src = 'images/art/plasticarts/' + i.filename;
+        selectedImageHeader.innerHTML = i.title;
+        selectedImageSubHeader.innerHTML = i.subtitle;
+        selectedImageBody.innerHTML = i.body;
     })
     gallery_plasticarts.appendChild(image);
 })
