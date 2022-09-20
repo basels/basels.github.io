@@ -12,10 +12,10 @@
       "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration" ],
       "publications": [
         {
-          "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham",
+          "citation": "<b>Shbita, B.</b>, Knoblock, C.A., Duan, W., Chiang, Y.Y., Uhl, J.H. & Leyk, S. (2022, September). Building Spatio-Temporal Knowledge Graphs from Vectorized Topographic Historical Maps. <i>Semantic Web</i>, (Preprint), pp.1-23",
           "links": {
-            "Link": "https://link.springer.com/chapter/10.1007/978-3-030-49461-2_24",
-            "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf",
+            "Link": "https://content.iospress.com/articles/semantic-web/sw222918",
+            "Paper": "https://content.iospress.com/download/semantic-web/sw222918?id=semantic-web%2Fsw222918",
             "Code": "https://github.com/usc-isi-i2/linked-maps",
             "Explorer": "https://linked-maps.isi.edu"
           }
@@ -25,6 +25,13 @@
           "links": {
             "Link": "https://dl.acm.org/doi/abs/10.1145/3394486.3403381",
             "Paper": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403381"
+          }
+        },
+        {
+          "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham",
+          "links": {
+            "Link": "https://link.springer.com/chapter/10.1007/978-3-030-49461-2_24",
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf"
           }
         }
       ]
