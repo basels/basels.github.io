@@ -2,12 +2,13 @@
   "Ongoing Research Projects": [
     {
       "title": "Linked Maps",
+      "subtitle": "at USC-ISI",
       "thumbnail": "images/proj_2020_02.jpg",
-      "desc": "Exploiting Context in Cartographic Evolutionary Documents to Extract and Build Linked Open Spatio-Temporal Data",
+      "desc": "Exploiting Context in Cartographic Evolutionary Documents to Extract and Build Linked Open Spatio-Temporal Data.",
       "links": {
         "Project Website": "https://usc-isi-i2.github.io/linked-maps/"
       },
-      "year": "2020-Present",
+      "year": "2019-Present",
       "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration" ],
       "publications": [
@@ -37,13 +38,25 @@
       ]
     },
     {
+      "title": "Understanding Customer Requirements - an Enterprise Knowledge Graph Approach",
+      "subtitle": "with Dr. Anna Lisa Gentile, Mr. Chad DeLuca, Dr. Pengyuan Li and Dr. Guang-Jie Ren (IBM Research)",
+      "thumbnail": "images/proj_2022_08.jpg",
+      "desc": "Leveraging linked open data and Enterprise Knowledge Graphs to guide the extraction and formalization of customer requirements from text.",
+      "year": "2022-Present",
+      "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Semantic Web"]
+    }
+  ],
+  "Completed Research & Academic Projects": [
+    {
       "title": "Table Understanding",
+      "subtitle": "at USC-ISI",
       "thumbnail": "images/proj_2019_05.jpg",
-      "desc": "Extracting and Interpreting Time Series for Causal Discovery",
+      "desc": "Extracting and Interpreting Time Series for Causal Discovery.",
       "links": {
         "Project Website": "https://usc-isi-i2.github.io/Timeseries/"
       },
-      "year": "2019-Present",
+      "year": "2019-2021",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Linked Data", "Knowledge Graphs", "Information Integration", "NLP"],
       "publications": [
@@ -59,12 +72,13 @@
     },
     {
       "title": "MINT (Model INTegration)",
+      "subtitle": "at USC-ISI",
       "thumbnail": "images/proj_2019_09.jpg",
-      "desc": "Scientific Model Integration through Knowledge-Rich Data and Process Composition",
+      "desc": "Scientific Model Integration through Knowledge-Rich Data and Process Composition.",
       "links": {
         "Project Website": "http://mint-project.info/"
       },
-      "year": "2019-Present",
+      "year": "2019-2021",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": ["Linked Data", "Knowledge Graphs", "Information Integration"],
       "publications": [
@@ -75,9 +89,19 @@
           }
         }
       ]
-    }
-  ],
-  "Completed Research & Educational Projects": [
+    },
+    {
+      "title": "Automated Generation of Control Concepts Annotation Rules Using Inductive Logic Programming",
+      "subtitle": "with Dr. Abha Moitra (GE Research)",
+      "thumbnail": "images/proj_2021_08.jpg",
+      "desc": "Automatically generating classification and annotation rules for control concepts in cyber-physical systems (CPS) using semantic technologies and Inductive Logic Programming.",
+      "links": {
+        "Link": "https://link.springer.com/chapter/10.1007/978-3-030-99461-7_10"
+      },
+      "year": "2021",
+      "tags_tools": [ "SWI-Prolog" ,"Python", "TTL/RDF" ],
+      "tags_fields": [ "Machine Learning", "Knowledge Graphs", "Inductive Logic Programming"]
+    },
     {
       "title": "Viola @ Socialbot Grand Challenge 4",
       "subtitle": "university challenge to advance human-computer interaction (semi-finalists)",
@@ -101,7 +125,7 @@
     },
     {
       "title": "Augmenting Conversational Dialogue Datasets with Commonsense and Adaptive Local Knowledge",
-      "subtitle": "with Hyundong Cho",
+      "subtitle": "with Hyundong Cho (USC)",
       "thumbnail": "images/proj_2020_12.jpg",
       "desc": "Designed a dialogue dataset augmentation framework to expand multi-turn dialogue systems to incorporate external knowledge sources and ground pre-trained language models with commonsense reasoning. <br>Project conducted as part of the 'CSCI 662: Advanced Natural Language Processing' class.",
       "links": {
@@ -113,7 +137,7 @@
     },
     {
       "title": "Robust Defense Against Lp-Norm-Based Attacks by Learning Robust Representations",
-      "subtitle": "with Iordanis Fostiropoulos, and Myrl Marmarelis",
+      "subtitle": "with Iordanis Fostiropoulos, and Myrl Marmarelis (USC)",
       "thumbnail": "images/proj_2020_06.jpg",
       "desc": "Investigated the vulnerablity of image classifiers to adversarial perturbations and proposed a new regularization objective based on the Euclidean distance between classes in the hypothetical latent space found in the features of the penultimate layer. <br>Project conducted as part of the 'CSCI 699: Adversarial Machine Learning' class.",
       "links": {
@@ -125,7 +149,7 @@
     },
     {
       "title": "Music Latent Representation and Disentanglement for Genre Classification",
-      "subtitle": "with Ehsan Qasemi, Binh Vu, and Minh Pham",
+      "subtitle": "with Ehsan Qasemi, Binh Vu, and Minh Pham (USC)",
       "thumbnail": "images/proj_2019_12.jpg",
       "desc": "Investigated the use of unsupervised representation learning techniques to compress musical samples into a low-dimensional representation and use it for the task of music genre classification. <br>Project conducted as part of the 'CSCI 699: Representation Learning: Theory and Practice' class.",
       "links": {
@@ -137,7 +161,7 @@
     },
     {
       "title": "Marvel and DC-Comics comic-books Knowledge Graph",
-      "subtitle": "Supervisors: Prof. Pedro Szekely, Dr. Jay Pujara (University of Southern California)",
+      "subtitle": "Supervisors: Prof. Pedro Szekely, Dr. Jay Pujara (USC)",
       "thumbnail": "images/proj_06.jpg",
       "desc": "Planned, designed, implemented and deployed a knowledge graph which captures Marvel and DC-Comics brands comic-book characters, comic-book issues and movies. <br>Project conducted as part of the 'INF 558/CSCI 563: Building Knowledge Graphs' class.",
       "links": {
@@ -152,7 +176,7 @@
     },
     {
       "title": "IPoIB Router in the Switch-X Product Family: from Firmware Design to Implementation of the Verification Environment and the Debug Tools",
-      "subtitle": "under direction of Mr. Ami Marelli (Mellanox Technologies)",
+      "subtitle": "under direction of Mr. Ami Marelli (Mellanox Technologies / Nvidia)",
       "thumbnail": "images/proj_02.jpg",
       "desc": "Executed an implementation and verification process of the IPolB Router firmware mechanism in the Switch-X IC, a Switch System Silicon designed by Mellanox Technologies.<br>The development was done in the firmware layer using different methods and tools, according to the company’s required methodologies.",
       "year": "2014",
