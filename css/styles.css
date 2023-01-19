@@ -56,8 +56,8 @@ p {
   color: #7c7c7c;
 }
 
-li {
-  margin: -5px 0;
+.news_li {
+  margin: -7px 0;
   font-size: 0.8em
 }
 
