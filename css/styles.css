@@ -56,6 +56,11 @@ p {
   color: #7c7c7c;
 }
 
+li {
+  margin: -5px 0;
+  font-size: 0.8em
+}
+
 #photorcorners {
   border-radius: 25px;
   border: 1px solid #33cccc;
