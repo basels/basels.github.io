@@ -47,23 +47,27 @@ const imageNamesGraphicDesign = [
     new galImgEle('ancients.jpg', 'I am mine and (belong) only to myself', 'JUNE 28, 2020', 'The psychological chains and patriarchy will be broken.<br><br>Digital pop art collage made with Adobe Photoshop.')];
 
 const imageNamesCreativeCoding = [
-    new galImgEle('escaping_the_covid.gif', 'Escaping the COVID', 'APRIL 5, 2020', 'Escaping to a different realm.<br><br>20-second video made from an art-coding project during the COVID-19 pandemic. Generated using processing IDE (some graphics was drawn on Adobe Photoshop, some adopted from Nintendo (thanks!)).'),
-    new galImgEle('gmms.gif', '0rgan1sm#032', 'MAY 2, 2020', 'Randomly generated organism #032. "Is it really there or is that just my anxiety?"<br><br>Short animated loop. Generated using Python.'),
     new galImgEle('bezier_01.gif', 'Chann3l#01', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #01.<br><br>Short animated loop. Generated using processing IDE.'),
     new galImgEle('bezier_02.gif', 'Chann3l#02', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #02.<br><br>Short animated loop. Generated using processing IDE.'),
     new galImgEle('bezier_03.gif', 'Chann3l#03', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #03.<br><br>Short animated loop. Generated using processing IDE.'),
-    new galImgEle('bezier_04.gif', 'Chann3l#04', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #04.<br><br>Short animated loop. Generated using processing IDE.')];
+    new galImgEle('bezier_04.gif', 'Chann3l#04', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #04.<br><br>Short animated loop. Generated using processing IDE.'),
+    new galImgEle('gmms.gif', '0rgan1sm#032', 'MAY 2, 2020', 'Randomly generated organism #032. "Is it really there or is that just my anxiety?"<br><br>Short animated loop. Generated using Python.'),
+    new galImgEle('escaping_the_covid.gif', 'Escaping the COVID', 'APRIL 5, 2020', 'Escaping to a different realm.<br><br>20-second video made from an art-coding project during the COVID-19 pandemic. Generated using processing IDE (some graphics was drawn on Adobe Photoshop, some adopted from Nintendo (thanks!)).')];
 
 const imageNamesDrawing = [
-    new galImgEle('dig_art_01.jpg', "Daft Punk's new Perseverance", 'FEBRUARY 27, 2021', "Daft Punk announced their split just days after NASA's Perseverance rover sent back the first ever sounds from Mars. coincidence?<br><br>Digital drawing and coloring in Adobe Photoshop."),
-    new galImgEle('sketch_01.jpg', 'Digital portrait of Lina Shbita', 'MARCH 15, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
-    new galImgEle('sketch_02.jpg', 'Digital portrait of Tarik Batal', 'APRIL 26, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
-    new galImgEle('sketch_03.jpg', 'Digital portrait of Sarah Abbas', 'APRIL 20, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
-    new galImgEle('sketch_04.jpg', 'Digital self-portrait', 'MARCH 5, 2021', 'Digital coloring in Adobe Photoshop.'),
+    new galImgEle('fd_09_01.jpg', 'Untitled figure drawing #091', 'APRIL 7, 2022', 'Unknown model<br>15 minute pose.<br><br>Pencil on paper.'),
+    new galImgEle('fd_09_02.jpg', 'Untitled figure drawing #092', 'APRIL 7, 2022', 'Unknown model<br>5-10 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_09_03.jpg', 'Untitled figure drawing #093', 'APRIL 7, 2022', 'Unknown model<br>5 minute poses.<br><br>Pencil on paper. Coloring in Adobe Photoshop.'),
+    new galImgEle('fd_09_04.jpg', 'Untitled figure drawing #094', 'APRIL 7, 2022', 'Unknown model<br>1-5 minute poses.<br><br>Pencil on paper.'),
     new galImgEle('fd_08_01.jpg', 'Untitled figure drawing #081', 'SEPTEMBER 15, 2021', 'Unknown model<br>15 minute pose.<br><br>Pencil on paper. Color inverting in Adobe Photoshop.'),
     new galImgEle('fd_08_02.jpg', 'Untitled figure drawing #082', 'SEPTEMBER 15, 2021', 'Unknown model<br>5-10 minute poses.<br><br>Pencil on paper.'),
     new galImgEle('fd_08_03.jpg', 'Untitled figure drawing #083', 'SEPTEMBER 15, 2021', 'Unknown model<br>5 minute poses.<br><br>Pencil on paper.'),
     new galImgEle('fd_08_04.jpg', 'Untitled figure drawing #084', 'SEPTEMBER 15, 2021', 'Unknown model<br>1 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('dig_art_01.jpg', "Daft Punk's new Perseverance", 'FEBRUARY 27, 2021', "Daft Punk announced their split just days after NASA's Perseverance rover sent back the first ever sounds from Mars. coincidence?<br><br>Digital drawing and coloring in Adobe Photoshop."),
+    new galImgEle('sketch_02.jpg', 'Digital portrait of Tarik Batal', 'APRIL 26, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
+    new galImgEle('sketch_03.jpg', 'Digital portrait of Sarah Abbas', 'APRIL 20, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
+    new galImgEle('sketch_01.jpg', 'Digital portrait of Lina Shbita', 'MARCH 15, 2021', 'Digital drawing and coloring in Adobe Photoshop.'),
+    new galImgEle('sketch_04.jpg', 'Digital self-portrait', 'MARCH 5, 2021', 'Digital coloring in Adobe Photoshop.'),
     new galImgEle('fd_07_01.jpg', 'Untitled figure drawing #071', 'FEBRUARY 26, 2020', 'Model: Figuratively Aurora<br>10 minute pose.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
     new galImgEle('fd_07_02.jpg', 'Untitled figure drawing #072', 'FEBRUARY 26, 2020', 'Model: Figuratively Aurora<br>5 minute poses.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
     new galImgEle('fd_07_03.jpg', 'Untitled figure drawing #073', 'FEBRUARY 26, 2020', 'Model: Figuratively Aurora<br>3-5 minute poses.<br><br>Pencil on paper. Soft coloring in Adobe Photoshop.'),
@@ -82,7 +86,7 @@ const imageNamesDrawing = [
     new galImgEle('fd_03_04.jpg', 'Untitled figure drawing #034', 'OCTOBER 23, 2019', 'Model: Lucy Smith<br>30 second poses.<br><br>Pencil on paper.')];
 
 const imageNamesPlasticArts = [
-    new galImgEle('clay.jpg', 'Self-portrait (clay)', '2004', '"Basel" is written in English (top), Arabic (left) & Hebrew (bottom).<br><br>Clay.'),
+    new galImgEle('clay.jpg', 'Self-portrait (clay)', '2004-2006', '"Basel" is written in English (top), Arabic (left) & Hebrew (bottom).<br><br>Clay.'),
     new galImgEle('concrete.jpg', '"Basel" (concrete)', '2005-2006', '"Basel" 3D sculpture<br><br>Ytong Autoclaved Aerated Concrete (AAC).'),
     new galImgEle('gypsum.jpg', 'Fist of the brave (gypsum)', '2005', '<br><br>Gypsum casting. Alginate to create the mold.'),
     new galImgEle('plasticine.jpg', 'Owl, Whale & Iguana (clay)', '2005', 'Sculptural lamp.<br><br>Air-dry clay (plasticine) and acrylic paint.')];
