@@ -42,6 +42,9 @@
       "subtitle": "with Dr. Anna Lisa Gentile, Mr. Chad DeLuca, Dr. Pengyuan Li and Dr. Guang-Jie Ren (IBM Research)",
       "thumbnail": "images/proj_2022_08.jpg",
       "desc": "Leveraging linked open data and Enterprise Knowledge Graphs to guide the extraction and formalization of customer requirements from text.",
+      "links": {
+        "Project Website": "https://research.ibm.com/publications/understanding-customer-requirements-an-enterprise-knowledge-graph-approach"
+      },
       "year": "2022-Present",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
       "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Semantic Web"]
