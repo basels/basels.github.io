@@ -111,7 +111,7 @@
       "thumbnail": "images/proj_2021_07.jpg",
       "desc": "An open-domain dialogue system for spoken conversation that uses a topic-agnostic dialogue manager based on a simple generate-and-rank approach.",
       "links": {
-        "Team Webpage": "https://developer.amazon.com/alexaprize/challenges/current-challenge/teams/viola"
+        "Team Webpage": "https://www.amazon.science/alexa-prize/teams/viola"
       },
       "year": "2020-2021",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
