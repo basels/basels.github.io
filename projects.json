@@ -43,7 +43,8 @@
       "thumbnail": "images/proj_2022_08.jpg",
       "desc": "Leveraging linked open data and Enterprise Knowledge Graphs to guide the extraction and formalization of customer requirements from text.",
       "links": {
-        "Project Website": "https://research.ibm.com/publications/understanding-customer-requirements-an-enterprise-knowledge-graph-approach"
+        "Project Website": "https://research.ibm.com/publications/understanding-customer-requirements-an-enterprise-knowledge-graph-approach",
+        "Paper": "https://2023.eswc-conferences.org/wp-content/uploads/2023/05/paper_Shbita_2023_Understanding.pdf"
       },
       "year": "2022-Present",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
