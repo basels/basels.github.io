@@ -36,22 +36,22 @@
           }
         }
       ]
-    },
+    }
+  ],
+  "Completed Research & Academic Projects": [
     {
       "title": "Understanding Customer Requirements - an Enterprise Knowledge Graph Approach",
       "subtitle": "with Dr. Anna Lisa Gentile, Mr. Chad DeLuca, Dr. Pengyuan Li and Dr. Guang-Jie Ren (IBM Research)",
       "thumbnail": "images/proj_2022_08.jpg",
       "desc": "Leveraging linked open data and Enterprise Knowledge Graphs to guide the extraction and formalization of customer requirements from text.",
       "links": {
-        "Project Website": "https://research.ibm.com/publications/understanding-customer-requirements-an-enterprise-knowledge-graph-approach",
-        "Paper": "https://2023.eswc-conferences.org/wp-content/uploads/2023/05/paper_Shbita_2023_Understanding.pdf"
+        "Link": "https://doi.org/10.1007/978-3-031-33455-9_37",
+        "Project Website": "https://research.ibm.com/publications/understanding-customer-requirements-an-enterprise-knowledge-graph-approach"
       },
-      "year": "2022-Present",
+      "year": "2022-2023",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
       "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Semantic Web"]
-    }
-  ],
-  "Completed Research & Academic Projects": [
+    },
     {
       "title": "Table Understanding",
       "subtitle": "at USC-ISI",
