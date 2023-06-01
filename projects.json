@@ -1,5 +1,5 @@
 {
-  "Ongoing Research Projects": [
+  "Research & Academic Projects": [
     {
       "title": "Linked Maps",
       "subtitle": "at USC-ISI",
@@ -16,7 +16,8 @@
           "citation": "<b>Shbita, B.</b>, Knoblock, C.A., Duan, W., Chiang, Y.Y., Uhl, J.H. & Leyk, S. (2023, April). Building Spatio-Temporal Knowledge Graphs from Vectorized Topographic Historical Maps. <i>Semantic Web</i>, 14(3), (pp. 527–549). IOS Press",
           "links": {
             "Link": "https://content.iospress.com/articles/semantic-web/sw222918",
-            "Paper": "https://content.iospress.com/download/semantic-web/sw222918?id=semantic-web%2Fsw222918",
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita23-swj.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita23-swj-slides.pdf",
             "Code": "https://github.com/usc-isi-i2/linked-maps",
             "Explorer": "https://linked-maps.isi.edu"
           }
@@ -25,32 +26,62 @@
           "citation": "Li, Z., Chiang, Y. Y., Tavakkol, S., <b>Shbita, B.</b>, Uhl, J. H., Leyk, S., & Knoblock, C. A. (2020, August). An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images. In <i>Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining</i> (pp. 3290-3298)",
           "links": {
             "Link": "https://dl.acm.org/doi/abs/10.1145/3394486.3403381",
-            "Paper": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403381"
+            "Paper": "http://usc-isi-i2.github.io/papers/li20-kdd.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/li-kdd20-slides.pdf"
           }
         },
         {
           "citation": "<b>Shbita, B.</b>, Knoblock, C. A., Duan, W., Chiang, Y. Y., Uhl, J. H., & Leyk, S. (2020, May). Building Linked Spatio-Temporal Data from Vectorized Historical Maps. In <i>European Semantic Web Conference</i> (pp. 409-426). Springer, Cham",
           "links": {
             "Link": "https://link.springer.com/chapter/10.1007/978-3-030-49461-2_24",
-            "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf"
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita20-eswc-slides.pdf",
+            "Talk (video)": "https://vimeo.com/418737303"
           }
         }
       ]
-    }
-  ],
-  "Completed Research & Academic Projects": [
+    },
     {
       "title": "Understanding Customer Requirements - an Enterprise Knowledge Graph Approach",
-      "subtitle": "with Dr. Anna Lisa Gentile, Mr. Chad DeLuca, Dr. Pengyuan Li and Dr. Guang-Jie Ren (IBM Research)",
+      "subtitle": "with Dr. Anna Lisa Gentile, Dr. Pengyuan Li, Mr. Chad DeLuca and Dr. Guang-Jie Ren (IBM Research)",
       "thumbnail": "images/proj_2022_08.jpg",
       "desc": "Leveraging linked open data and Enterprise Knowledge Graphs to guide the extraction and formalization of customer requirements from text.",
       "links": {
-        "Link": "https://doi.org/10.1007/978-3-031-33455-9_37",
         "Project Website": "https://research.ibm.com/publications/understanding-customer-requirements-an-enterprise-knowledge-graph-approach"
       },
-      "year": "2022-2023",
+      "year": "2022-23",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
-      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Semantic Web"]
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Semantic Web"],
+      "publications": [
+        {
+          "citation": "<b>Shbita, B.</b>, Gentile, A. L., Li, P., DeLuca, C., & Ren, G. (2023). Understanding Customer Requirements-An Enterprise Knowledge Graph Approach. In <i>Extended Semantic Web Conference</i>, pages 625–643, Cham, Springer Nature Switzerland",
+          "links": {
+            "Link": "https://doi.org/10.1007/978-3-031-33455-9_37",
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita23-eswc.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita23-eswc-slides.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Automated Generation of Control Concepts Annotation Rules Using Inductive Logic Programming",
+      "subtitle": "with Dr. Abha Moitra (GE Research)",
+      "thumbnail": "images/proj_2021_08.jpg",
+      "desc": "Automatically generating classification and annotation rules for control concepts in cyber-physical systems (CPS) using semantic technologies and Inductive Logic Programming.",
+      "year": "2021-22",
+      "tags_tools": [ "SWI-Prolog" ,"Python", "TTL/RDF" ],
+      "tags_fields": [ "Machine Learning", "Knowledge Graphs", "Inductive Logic Programming"],
+      "publications": [
+        {
+          "citation": "<b>Shbita, B.</b>, & Moitra, A. (2022). Automated Generation of Control Concepts Annotation Rules Using Inductive Logic Programming. In Hanus, M.; and Igarashi, A., editor(s), <i>Functional and Logic Programming</i>, pages 171–185, Cham, Springer International Publishing",
+          "links": {
+            "Link": "https://link.springer.com/chapter/10.1007/978-3-030-99461-7_10",
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita22-flops.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita22-flops-slides.pdf",
+            "Talk (video)": "https://www.youtube.com/watch?v=uvISCzd5Hoc"
+          }
+        }
+      ]
     },
     {
       "title": "Table Understanding",
@@ -60,16 +91,17 @@
       "links": {
         "Project Website": "https://usc-isi-i2.github.io/Timeseries/"
       },
-      "year": "2019-2021",
+      "year": "2019-21",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Linked Data", "Knowledge Graphs", "Information Integration", "NLP"],
       "publications": [
         {
           "citation": "<b>Shbita, B.</b>, Rajendran, A., Pujara, J., & Knoblock, C. A. (2019). Parsing, Representing and Transforming Units of Measure. In <i>Modeling the World’s Systems</i>",
           "links": {
-            "Paper": "http://mint-project.info/assets/publications/shbita-etal-cwm19.pdf",
-            "Poster": "docs/shbita_momacs19_poster.pdf",
-            "Code": "https://github.com/basels/ccut"
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita19-mws.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita19-mws-slides.pdf",
+            "Code": "https://github.com/basels/ccut",
+            "Code (API)": "https://github.com/basels/ccut-wrapper"
           }
         }
       ]
@@ -82,39 +114,28 @@
       "links": {
         "Project Website": "http://mint-project.info/"
       },
-      "year": "2019-2021",
+      "year": "2019-21",
       "tags_tools": [ "Python", "TTL/RDF" ],
       "tags_fields": ["Linked Data", "Knowledge Graphs", "Information Integration"],
       "publications": [
         {
           "citation": "<b>Shbita, B.</b>, Vu, B., Feldman, D., Pham, M., Rajendran, A., Knoblock, C. A., Pujara, J., & Chiang, Y. Y. (2019). Creating a FAIR Data Catalog to Support Scientific Modeling. In <i>Workshop on Advanced Knowledge Technologies for Science in a FAIR World (AKTS)</i>",
           "links": {
-            "Paper": "http://mint-project.info/assets/publications/shbita-etal-escience19.pdf"
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita19-escience.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita19-escience-slides.pdf"
           }
         }
       ]
     },
     {
-      "title": "Automated Generation of Control Concepts Annotation Rules Using Inductive Logic Programming",
-      "subtitle": "with Dr. Abha Moitra (GE Research)",
-      "thumbnail": "images/proj_2021_08.jpg",
-      "desc": "Automatically generating classification and annotation rules for control concepts in cyber-physical systems (CPS) using semantic technologies and Inductive Logic Programming.",
-      "links": {
-        "Link": "https://link.springer.com/chapter/10.1007/978-3-030-99461-7_10"
-      },
-      "year": "2021",
-      "tags_tools": [ "SWI-Prolog" ,"Python", "TTL/RDF" ],
-      "tags_fields": [ "Machine Learning", "Knowledge Graphs", "Inductive Logic Programming"]
-    },
-    {
       "title": "Viola @ Socialbot Grand Challenge 4",
-      "subtitle": "university challenge to advance human-computer interaction (semi-finalists)",
+      "subtitle": "<b>semi-finalists</b> at university challenge to advance human-computer interaction (Amazon Science)",
       "thumbnail": "images/proj_2021_07.jpg",
       "desc": "An open-domain dialogue system for spoken conversation that uses a topic-agnostic dialogue manager based on a simple generate-and-rank approach.",
       "links": {
         "Team Webpage": "https://www.amazon.science/alexa-prize/teams/viola"
       },
-      "year": "2020-2021",
+      "year": "2020-21",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
       "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Conversational Bot"],
       "publications": [
@@ -169,9 +190,9 @@
       "thumbnail": "images/proj_06.jpg",
       "desc": "Planned, designed, implemented and deployed a knowledge graph which captures Marvel and DC-Comics brands comic-book characters, comic-book issues and movies. <br>Project conducted as part of the 'INF 558/CSCI 563: Building Knowledge Graphs' class.",
       "links": {
-        "Report": "https://github.com/basels/Marvel-and-DC-Comic-books-KG/blob/master/final_submission/Basel_Shbita_Ke_Xu_project_summary.pdf",
+        "Paper": "https://github.com/basels/Marvel-and-DC-Comic-books-KG/blob/master/final_submission/Basel_Shbita_Ke_Xu_project_summary.pdf",
         "Slides": "https://github.com/basels/Marvel-and-DC-Comic-books-KG/blob/master/final_submission/Basel_Shbita_Ke_Xu_final_presentation.pdf",
-        "Demo": "https://www.youtube.com/watch?v=MYFi45EeZV0",
+        "Demo (video)": "https://www.youtube.com/watch?v=MYFi45EeZV0",
         "Code": "https://github.com/basels/Marvel-and-DC-Comic-books-KG#readme"
       },
       "year": "2018",

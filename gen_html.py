@@ -84,8 +84,14 @@ def generate_post(post):
     wfile.write('<ul class="list-group list-group-flush">\n')
 
     # post header
-    wfile.write('<li class="list-group-item">\n')
-    wfile.write(f'<h5 class="card-title"><b>{post["title"]}</b></h5>\n')
+    wfile.write('<li class="list-group-item">\n<div style="text-align: right"><span class="badge" style="background-color: ')
+
+    if "present" in post["year"].lower():
+        wfile.write('#f9da4a; color: #000000">In Progress')
+    else:
+        wfile.write('#3cb371; color: #ffffff">Completed')
+
+    wfile.write(f'</span></div><h5 class="card-title"><b>{post["title"]}</b></h5>\n')
     if 'subtitle' in post:
         wfile.write(f'<h6 class="card-subtitle text-muted">{post["subtitle"]}</h6>\n')
     wfile.write(f'<img id="photorcorners" src="{post["thumbnail"]}" alt="Card image"  style="max-width: 90%">\n')
@@ -97,7 +103,7 @@ def generate_post(post):
     if 'links' in post:
         wfile.write('<p class="card-text" style="text-align: right; margin: 0px;">')
         for itm_id, (itm_tit, itm_lnk) in enumerate(post['links'].items()):
-            wfile.write('<a target="_blank" href="%s" class="card-link">%s</a>' % (itm_lnk, itm_tit))
+            wfile.write('<a target="_blank" href="%s" class="card-link" style="background-color: #E6FFFE;">%s</a>' % (itm_lnk, itm_tit))
             if itm_id != len(post['links']) - 1:
                 wfile.write(" · ")
         wfile.write('</p>')
@@ -109,7 +115,7 @@ def generate_post(post):
             if 'links' in pitem:
                 wfile.write('<p class="card-text" style="text-align: right; margin: 0px;">')
                 for itm_id, (itm_tit, itm_lnk) in enumerate(pitem['links'].items()):
-                    wfile.write('<a target="_blank" href="%s" class="card-link">%s</a>' % (itm_lnk, itm_tit))
+                    wfile.write('<a target="_blank" href="%s" class="card-link" style="background-color: #E6FFFE;">%s</a>' % (itm_lnk, itm_tit))
                     if itm_id != len(pitem['links']) - 1:
                         wfile.write(" · ")
                 wfile.write('</p>')
