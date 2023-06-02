@@ -87,7 +87,7 @@ def generate_post(post):
     wfile.write('<li class="list-group-item">\n<div style="text-align: right"><span class="badge" style="background-color: ')
 
     if "present" in post["year"].lower():
-        wfile.write('#f9da4a; color: #000000">In Progress')
+        wfile.write('#f9da4a; color: #000000">Ongoing')
     else:
         wfile.write('#3cb371; color: #ffffff">Completed')
 
