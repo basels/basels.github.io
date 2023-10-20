@@ -1,16 +1,29 @@
 {
   "Research & Academic Projects": [
     {
+      "title": "CriticalMAAS MinMod",
+      "subtitle": "at USC-ISI",
+      "thumbnail": "images/proj_2023_08.jpg",
+      "desc": "Critical minerals underpin modern tech and the global economy. MinMod uses AI to process diverse datasets, automating grade and tonnage model creation, expediting mineral site data updates, and aiding mine deposit location.",
+      "links": {
+        "Project Website": "https://knowledge-computing.github.io/criticalmaas-web/",
+        "Explorer": "https://minmod.isi.edu"
+      },
+      "year": "2023-Present",
+      "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Machine Learning", "NLP" ]
+    },
+    {
       "title": "Linked Maps",
       "subtitle": "at USC-ISI",
       "thumbnail": "images/proj_2020_02.jpg",
-      "desc": "Exploiting Context in Cartographic Evolutionary Documents to Extract and Build Linked Open Spatio-Temporal Data.",
+      "desc": "Framework for extracting and semantically linking content from vast historical map archives. The initiative unlocks rich insights from maps, promoting interdisciplinary research in socio-geographic processes.",
       "links": {
         "Project Website": "https://usc-isi-i2.github.io/linked-maps/"
       },
       "year": "2019-Present",
-      "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
-      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Information Integration" ],
+      "tags_tools": [ "Python", "PostGIS", "PyTorch", "TTL/RDF" ],
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs" ],
       "publications": [
         {
           "citation": "<b>Shbita, B.</b>, Knoblock, C.A., Duan, W., Chiang, Y.Y., Uhl, J.H. & Leyk, S. (2023, April). Building Spatio-Temporal Knowledge Graphs from Vectorized Topographic Historical Maps. <i>Semantic Web</i>, 14(3), (pp. 527–549). IOS Press",
@@ -20,14 +33,6 @@
             "Slides": "http://usc-isi-i2.github.io/slides/shbita23-swj-slides.pdf",
             "Code": "https://github.com/usc-isi-i2/linked-maps",
             "Explorer": "https://linked-maps.isi.edu"
-          }
-        },
-        {
-          "citation": "Li, Z., Chiang, Y. Y., Tavakkol, S., <b>Shbita, B.</b>, Uhl, J. H., Leyk, S., & Knoblock, C. A. (2020, August). An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images. In <i>Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining</i> (pp. 3290-3298)",
-          "links": {
-            "Link": "https://dl.acm.org/doi/abs/10.1145/3394486.3403381",
-            "Paper": "http://usc-isi-i2.github.io/papers/li20-kdd.pdf",
-            "Slides": "http://usc-isi-i2.github.io/slides/li-kdd20-slides.pdf"
           }
         },
         {
@@ -50,7 +55,7 @@
       },
       "year": "2022-23",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
-      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Semantic Web"],
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Semantic Web" ],
       "publications": [
         {
           "citation": "<b>Shbita, B.</b>, Gentile, A. L., Li, P., DeLuca, C., & Ren, G. (2023). Understanding Customer Requirements-An Enterprise Knowledge Graph Approach. In <i>Extended Semantic Web Conference</i>, pages 625–643, Cham, Springer Nature Switzerland",
@@ -69,7 +74,7 @@
       "desc": "Automatically generating classification and annotation rules for control concepts in cyber-physical systems (CPS) using semantic technologies and Inductive Logic Programming.",
       "year": "2021-22",
       "tags_tools": [ "SWI-Prolog" ,"Python", "TTL/RDF" ],
-      "tags_fields": [ "Machine Learning", "Knowledge Graphs", "Inductive Logic Programming"],
+      "tags_fields": [ "Machine Learning", "Knowledge Graphs", "Inductive Logic Programming" ],
       "publications": [
         {
           "citation": "<b>Shbita, B.</b>, & Moitra, A. (2022). Automated Generation of Control Concepts Annotation Rules Using Inductive Logic Programming. In Hanus, M.; and Igarashi, A., editor(s), <i>Functional and Logic Programming</i>, pages 171–185, Cham, Springer International Publishing",
@@ -92,7 +97,7 @@
       },
       "year": "2019-21",
       "tags_tools": [ "Python", "TTL/RDF" ],
-      "tags_fields": [ "Semantic Web", "Linked Data", "Knowledge Graphs", "Information Integration", "NLP"],
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "NLP" ],
       "publications": [
         {
           "citation": "<b>Shbita, B.</b>, Rajendran, A., Pujara, J., & Knoblock, C. A. (2019). Parsing, Representing and Transforming Units of Measure. In <i>Modeling the World’s Systems</i>",
@@ -115,7 +120,7 @@
       },
       "year": "2019-21",
       "tags_tools": [ "Python", "TTL/RDF" ],
-      "tags_fields": ["Linked Data", "Knowledge Graphs", "Information Integration"],
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs" ],
       "publications": [
         {
           "citation": "<b>Shbita, B.</b>, Vu, B., Feldman, D., Pham, M., Rajendran, A., Knoblock, C. A., Pujara, J., & Chiang, Y. Y. (2019). Creating a FAIR Data Catalog to Support Scientific Modeling. In <i>Workshop on Advanced Knowledge Technologies for Science in a FAIR World (AKTS)</i>",
@@ -137,7 +142,7 @@
       },
       "year": "2020-21",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
-      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Conversational Bot"],
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Conversational Bot" ],
       "publications": [
         {
           "citation": "H. Cho, <b>B. Shbita</b>, K. Shenoy, S. Liu, N. Patel, H. Pindikanti, J. Lee, and J. May. (2021). Viola: A Topic Agnostic Generate-and-Rank Dialogue System. In <i>Proceedings of the 4th Alexa Prize</i>",
@@ -158,7 +163,7 @@
       },
       "year": "2020",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
-      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Conversational Bot"]
+      "tags_fields": [ "Deep Learning", "Machine Learning", "Knowledge Graphs", "NLP", "Conversational Bot" ]
     },
     {
       "title": "Robust Defense Against Lp-Norm-Based Attacks by Learning Robust Representations",
@@ -197,7 +202,7 @@
       },
       "year": "2018",
       "tags_tools": [ "Python", "TTL/RDF" ],
-      "tags_fields": [ "Knowledge Graphs", "Information Integration" ]
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs" ]
     },
     {
       "title": "IPoIB Router in the Switch-X Product Family: from Firmware Design to Implementation of the Verification Environment and the Debug Tools",
