@@ -22,9 +22,18 @@
         "Project Website": "https://usc-isi-i2.github.io/linked-maps/"
       },
       "year": "2019-Present",
-      "tags_tools": [ "Python", "PostGIS", "PyTorch", "TTL/RDF" ],
+      "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs" ],
       "publications": [
+        {
+          "citation": "<b>Shbita, B.</b> & Knoblock, C.A. (2024, Feb). Automatically Constructing a Geospatial Feature Taxonomy from OpenStreetMap Data. <i>In Proceedings of the 18th International Conference on Semantic Computing (ICSC 2024)</i>, (pp. 208–211). IEEE",
+          "links": {
+            "Link": "https://doi.org/10.1109/ICSC59802.2024.00039",
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita24-icsc.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita24-icsc-slides.pdf",
+            "Code": "https://github.com/basels/osm-taxonomy/"
+          }
+        },
         {
           "citation": "<b>Shbita, B.</b>, Knoblock, C.A., Duan, W., Chiang, Y.Y., Uhl, J.H. & Leyk, S. (2023, April). Building Spatio-Temporal Knowledge Graphs from Vectorized Topographic Historical Maps. <i>Semantic Web</i>, 14(3), (pp. 527–549). IOS Press",
           "links": {
