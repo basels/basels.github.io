@@ -11,7 +11,15 @@
       },
       "year": "2023-Present",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
-      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Machine Learning", "NLP" ]
+      "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Machine Learning", "NLP" ],
+      "publications": [
+        {
+          "citation": "<b>Shbita, B.</b>, Sharma N., Vu B., Lin F., & Knoblock, C.A. (2024, May). Constructing a Knowledge Graph of Historical Mining Data. In <i>6th International Workshop on Geospatial Linked Data (GeoLD) Co-located with the 21st Extended Semantic Web Conference (ESWC 2024)</i>. CEUR",
+          "links": {
+            "Code": "https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data"
+          }
+        }
+      ]
     },
     {
       "title": "Linked Maps",
@@ -21,7 +29,7 @@
       "links": {
         "Project Website": "https://usc-isi-i2.github.io/linked-maps/"
       },
-      "year": "2019-Present",
+      "year": "2019-2023",
       "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs" ],
       "publications": [
