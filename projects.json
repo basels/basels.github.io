@@ -16,6 +16,7 @@
         {
           "citation": "<b>Shbita, B.</b>, Sharma N., Vu B., Lin F., & Knoblock, C.A. (2024, May). Constructing a Knowledge Graph of Historical Mining Data. In <i>6th International Workshop on Geospatial Linked Data (GeoLD) Co-located with the 21st Extended Semantic Web Conference (ESWC 2024)</i>. CEUR",
           "links": {
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita24-geold_ewsc.pdf",
             "Code": "https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data"
           }
         }
