@@ -17,6 +17,7 @@
           "citation": "<b>Shbita, B.</b>, Sharma N., Vu B., Lin F., & Knoblock, C.A. (2024, May). Constructing a Knowledge Graph of Historical Mining Data. In <i>6th International Workshop on Geospatial Linked Data (GeoLD) Co-located with the 21st Extended Semantic Web Conference (ESWC 2024)</i>. CEUR",
           "links": {
             "Paper": "http://usc-isi-i2.github.io/papers/shbita24-geold_ewsc.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita24-geold_ewsc-slides.pdf",
             "Code": "https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data"
           }
         }
@@ -166,7 +167,8 @@
           "citation": "H. Cho, <b>B. Shbita</b>, K. Shenoy, S. Liu, N. Patel, H. Pindikanti, J. Lee, and J. May. (2021). Viola: A Topic Agnostic Generate-and-Rank Dialogue System. In <i>Proceedings of the 4th Alexa Prize</i>",
           "links": {
             "Link": "https://arxiv.org/abs/2108.11063",
-            "Paper": "https://arxiv.org/pdf/2108.11063.pdf"
+            "Paper": "https://arxiv.org/pdf/2108.11063.pdf",
+            "Slides (pre semi-final)": "http://usc-isi-i2.github.io/slides/shbita21-alexa-slides.pdf"
           }
         }
       ]
