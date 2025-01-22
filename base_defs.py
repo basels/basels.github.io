@@ -54,7 +54,7 @@ HTML_HEADER_END = '''
 
 HTML_FOOTER = '''
   <footer class="footer">
-    <small>© 2024 Basel Shbita</small>
+    <small>© 2025 Basel Shbita</small>
   </footer>
 '''
 
