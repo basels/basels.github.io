@@ -19,6 +19,7 @@ class galImgEle {
 }
 
 const imageNamesAnimation = [
+    new galImgEle('2024_keffiyeh.gif', '2024. Dragon: Power, Nobleness & Honor', 'JANUARY 2, 2024', 'Beyond its iconic design, the keffiyeh is an unspoken expression of solidarity with the Palestinian people; the fishnet mirrors the deep connection to the sea; the olive tree symbolizes the cultural heart of Palestinian land, crafts & economy; the bold lines represent historic trade #routes, marking Palestine as a time-honored hub of exchange.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
     new galImgEle('ramadan_cali_2022.gif', 'Ramadan 2022', 'APRIL 2, 2022', 'Ramadan is community. Ramadan is reflection. Ramadan is fasting. Ramadan is prayer. Ramadan Kareem.<br><br>Short animated pixelart loop. Drawn with drawing-pad in Adobe Photoshop then tweened in Adobe Animate.'),
     new galImgEle('2022_tiger.gif', '2022. Year of the Tiger', 'JANUARY 4, 2022', 'A year summoning traits of bravery and competitiveness, but also generosity and charm.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
     new galImgEle('cali2pali.gif', 'From Cali to Pali', 'MAY 21, 2021', 'A call to Save Sheikh Jarrah and stop the attack on Gaza during the 2021 Israel–Palestine crisis.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
@@ -43,7 +44,7 @@ const imageNamesPainting = [
     new galImgEle('pnt_03.jpg', 'Haram esh-Sharif, Jerusalem', 'SEPTEMBER 8, 2006', 'Dome of the Rock & the Haram esh-Sharif compound in East Jerusalem.<br><br>Acrylic on canvas.')];
 
 const imageNamesGraphicDesign = [
-    new galImgEle('handala_8bit.jpg', 'Handala - timeless', 'OCTOBER 20, 2023', 'Digital pop art collage made with Adobe Photoshop.'),
+    new galImgEle('handala_8bit.jpg', 'Timeless Handala', 'OCTOBER 20, 2023', 'Digital pop art collage made with Adobe Photoshop.'),
     new galImgEle('i_am_the_moon.jpg', 'I am the moon', 'MARCH 26, 2022', 'Digital pop art collage made with Adobe Photoshop.'),
     new galImgEle('being_of_god_of_self.jpg', 'A being of god. A being of self', 'FEBRUARY 19, 2022', 'Digital pop art collage made with Adobe Photoshop. Combines generative elements generated using processing IDE.'),
     new galImgEle('eternal_journey_of_growth.jpg', 'The eternal journey of growth', 'FEBRUARY 10, 2022', 'Digital pop art collage made with Adobe Photoshop.'),
