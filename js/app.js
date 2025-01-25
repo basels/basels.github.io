@@ -28,6 +28,10 @@ const imageNamesAnimation = [
     new galImgEle('balloon.gif', 'Untitled (Draft#008)', 'MARCH 12, 2020', "In my world of my own, this balloon can be anything.<br><br>Short animated loop. Hand-drawn.")];
 
 const imageNamesPainting = [
+    new galImgEle('pnt_riddle_03.jpg', 'Inner Landscapes: Beyond', 'APRIL 30, 2022', 'An old man – perhaps a Sheikh Manhattan – entangled in inner conflicts, his queries concealed as riddles within impossible geometry. It is the third painting in the series "Inner Landscapes".<br><br>11x14 inch acrylic & collage (mixed media) on canvas.'),
+    new galImgEle('pnt_riddle_02.jpg', 'Inner Landscapes: Clash of Egos', 'FEBRUARY 15, 2022', 'Identity, ego, and transcendence converge on the canvas. It is the second painting in the series "Inner Landscapes".<br><br>11x14 inch acrylic & collage (mixed media) on canvas.'),
+    new galImgEle('pnt_riddle_01.jpg', 'Inner Landscapes: Battles of Identity', 'JANUARY 30, 2022', 'Physical and mental battle in a wilderness of ideas flooding my mind. It is the first painting in the series "Inner Landscapes".<br><br>11x14 inch acrylic & collage (mixed media) on canvas.'),
+    new galImgEle('pnt_trkbsma.jpg', 'Portrait of Basma Masri, Tarik Batal and their children', 'MAY 24, 2023', 'Acrylic on canvas.'),
     new galImgEle('pnt_09.jpg', 'Portrait of Lina Shbita', 'MARCH 15, 2022', 'Acrylic & collage (mixed media) on canvas.'),
     new galImgEle('pnt_08.jpg', 'Portrait of Hadar Cohen', 'MARCH 2, 2022', 'Acrylic & collage (mixed media) on canvas.'),
     new galImgEle('pnt_07.jpg', 'Portrait of Nader Sid-Ahmad & Sara Osman', 'FEBRUARY 27, 2022', 'Acrylic & collage (mixed media) on canvas.'),
@@ -39,6 +43,7 @@ const imageNamesPainting = [
     new galImgEle('pnt_03.jpg', 'Haram esh-Sharif, Jerusalem', 'SEPTEMBER 8, 2006', 'Dome of the Rock & the Haram esh-Sharif compound in East Jerusalem.<br><br>Acrylic on canvas.')];
 
 const imageNamesGraphicDesign = [
+    new galImgEle('handala_8bit.jpg', 'Handala - timeless', 'OCTOBER 20, 2023', 'Digital pop art collage made with Adobe Photoshop.'),
     new galImgEle('i_am_the_moon.jpg', 'I am the moon', 'MARCH 26, 2022', 'Digital pop art collage made with Adobe Photoshop.'),
     new galImgEle('being_of_god_of_self.jpg', 'A being of god. A being of self', 'FEBRUARY 19, 2022', 'Digital pop art collage made with Adobe Photoshop. Combines generative elements generated using processing IDE.'),
     new galImgEle('eternal_journey_of_growth.jpg', 'The eternal journey of growth', 'FEBRUARY 10, 2022', 'Digital pop art collage made with Adobe Photoshop.'),
