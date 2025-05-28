@@ -1,6 +1,18 @@
 {
   "Research & Academic Projects": [
     {
+      "title": "Granite 3.X",
+      "subtitle": "at IBM Research (Almaden)",
+      "thumbnail": "images/proj_2024_06.jpg",
+      "desc": "Contributing to the development of the Granite 3.X family of large language models at IBM Research, with a focus on integrating knowledge graphs to enhance data understanding and semantic reasoning.",
+      "links": {
+        "Project Website": "https://www.ibm.com/granite"
+      },
+      "year": "2024-Present",
+      "tags_tools": [ "Python", "PyTorch", "TTL/RDF"],
+      "tags_fields": [ "Generative AI", "Large Language Models (LLMs)", "NLP", "Knowledge Graphs", "Machine Learning", "Transformers"]
+    },
+    {
       "title": "CriticalMAAS MinMod",
       "subtitle": "at USC-ISI",
       "thumbnail": "images/proj_2023_08.jpg",
@@ -9,7 +21,7 @@
         "Project Website": "https://knowledge-computing.github.io/criticalmaas-web/",
         "Explorer": "https://minmod.isi.edu"
       },
-      "year": "2023-2025",
+      "year": "2023-25",
       "tags_tools": [ "Python", "PyTorch", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs", "Machine Learning", "NLP" ],
       "publications": [
@@ -27,19 +39,20 @@
       "title": "Linked Maps",
       "subtitle": "at USC-ISI",
       "thumbnail": "images/proj_2020_02.jpg",
-      "desc": "Framework for extracting and semantically linking content from vast historical map archives. The initiative unlocks rich insights from maps, promoting interdisciplinary research in socio-geographic processes.",
+      "desc": "Extracting and semantically linking content from vast historical map archives. The initiative unlocks rich insights from maps, promoting interdisciplinary research in socio-geographic processes.",
       "links": {
         "Project Website": "https://usc-isi-i2.github.io/linked-maps/"
       },
-      "year": "2019-2025",
+      "year": "2019-25",
       "tags_tools": [ "Python", "PostGIS", "TTL/RDF" ],
       "tags_fields": [ "Semantic Web", "Knowledge Graphs" ],
       "publications": [
         {
-          "citation": "<b>Shbita, B.</b>, Vu, B., Lin, F. & Knoblock, C.A. (2025, April). Embedding Spatial and Semantic Contexts for Geo-Entity Typing in Smart City Applications. <i>In Companion Proceedings of the ACM Web Conference 2025 (WWW Companion '25)</i>. ACM",
+          "citation": "<b>Shbita, B.</b>, Vu, B., Lin, F. & Knoblock, C.A. (2025, April). Embedding Spatial and Semantic Contexts for Geo-Entity Typing in Smart City Applications. <i>In Companion Proceedings of the ACM Web Conference 2025 (WWW '25)</i>. ACM",
           "links": {
             "Link": "https://doi.org/10.1145/3701716.3718325",
-            "Paper": "https://basels.github.io/docs/shbita25-webandcity_www.pdf",
+            "Paper": "http://usc-isi-i2.github.io/papers/shbita25-webandcity_www.pdf",
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita25-webandcity_www-slides.pdf",
             "Code": "https://github.com/basels/GeoEntityContextNet/"
           }
         },
@@ -58,8 +71,7 @@
             "Link": "https://content.iospress.com/articles/semantic-web/sw222918",
             "Paper": "http://usc-isi-i2.github.io/papers/shbita23-swj.pdf",
             "Slides": "http://usc-isi-i2.github.io/slides/shbita23-swj-slides.pdf",
-            "Code": "https://github.com/usc-isi-i2/linked-maps",
-            "Explorer": "https://linked-maps.isi.edu"
+            "Code": "https://github.com/usc-isi-i2/linked-maps"
           }
         },
         {
