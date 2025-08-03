@@ -53,7 +53,8 @@
             "Link": "https://doi.org/10.1145/3701716.3718325",
             "Paper": "http://usc-isi-i2.github.io/papers/shbita25-webandcity_www.pdf",
             "Slides": "http://usc-isi-i2.github.io/slides/shbita25-webandcity_www-slides.pdf",
-            "Code": "https://github.com/basels/GeoEntityContextNet/"
+            "Code": "https://github.com/basels/GeoEntityContextNet/",
+            "Talk (video)": "https://vimeo.com/1106825516"
           }
         },
         {
@@ -79,7 +80,8 @@
           "links": {
             "Link": "https://link.springer.com/chapter/10.1007/978-3-030-49461-2_24",
             "Paper": "http://usc-isi-i2.github.io/papers/shbita20-eswc.pdf",
-            "Slides": "http://usc-isi-i2.github.io/slides/shbita20-eswc-slides.pdf"
+            "Slides": "http://usc-isi-i2.github.io/slides/shbita20-eswc-slides.pdf",
+            "Talk (video)": "https://vimeo.com/418737303"
           }
         }
       ]
