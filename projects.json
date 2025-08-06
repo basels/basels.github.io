@@ -1,18 +1,6 @@
 {
   "Research & Academic Projects": [
     {
-      "title": "Granite 3.X",
-      "subtitle": "at IBM Research (Almaden)",
-      "thumbnail": "images/proj_2024_06.jpg",
-      "desc": "Contributing to the development of the Granite 3.X family of large language models at IBM Research, with a focus on integrating knowledge graphs to enhance data understanding and semantic reasoning.",
-      "links": {
-        "Project Website": "https://www.ibm.com/granite"
-      },
-      "year": "2024-Present",
-      "tags_tools": [ "Python", "PyTorch", "TTL/RDF"],
-      "tags_fields": [ "Generative AI", "Large Language Models (LLMs)", "NLP", "Knowledge Graphs", "Machine Learning", "Transformers"]
-    },
-    {
       "title": "CriticalMAAS MinMod",
       "subtitle": "at USC-ISI",
       "thumbnail": "images/proj_2023_08.jpg",

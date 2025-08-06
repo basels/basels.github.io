@@ -22,7 +22,6 @@ const imageNamesAnimation = [
     new galImgEle('2024_keffiyeh.gif', '2024. Dragon: Power, Nobleness & Honor', 'JANUARY 2, 2024', 'Beyond its iconic design, the keffiyeh is an unspoken expression of solidarity with the Palestinian people; the fishnet mirrors the deep connection to the sea; the olive tree symbolizes the cultural heart of Palestinian land, crafts & economy; the bold lines represent historic trade #routes, marking Palestine as a time-honored hub of exchange.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
     new galImgEle('ramadan_cali_2022.gif', 'Ramadan 2022', 'APRIL 2, 2022', 'Ramadan is community. Ramadan is reflection. Ramadan is fasting. Ramadan is prayer. Ramadan Kareem.<br><br>Short animated pixelart loop. Drawn with drawing-pad in Adobe Photoshop then tweened in Adobe Animate.'),
     new galImgEle('2022_tiger.gif', '2022. Year of the Tiger', 'JANUARY 4, 2022', 'A year summoning traits of bravery and competitiveness, but also generosity and charm.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
-    new galImgEle('cali2pali.gif', 'From Cali to Pali', 'MAY 21, 2021', 'A call to Save Sheikh Jarrah and stop the attack on Gaza during the 2021 Israel–Palestine crisis.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
     new galImgEle('astronaut.gif', 'No land to fall into', 'MARCH 30, 2021', 'Endless fall, into infinity and beyond, into self and outwards.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate.'),
     new galImgEle('womensday.gif', "Women's Day 2021", 'MARCH 8, 2021', "Celebrating all women around the globe on International Women's Day.<br><br>Short animated loop. Drawn with drawing-pad frame-by-frame in Adobe Animate with pop-up elements combined."),
     new galImgEle('falling.gif', 'Are you woke?', 'JUNE 6, 2020', "If you let go, you shall find, your true self.<br><br>Short animated loop. Hand-drawn then post-processed in Adobe Photoshop."),
@@ -55,10 +54,16 @@ const imageNamesCreativeCoding = [
     new galImgEle('bezier_02.gif', 'Chann3l#02', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #02.<br><br>Short animated loop. Generated using processing IDE.'),
     new galImgEle('bezier_03.gif', 'Chann3l#03', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #03.<br><br>Short animated loop. Generated using processing IDE.'),
     new galImgEle('bezier_04.gif', 'Chann3l#04', 'MARCH 10, 2021', 'Semi-random Bézier curves generation #04.<br><br>Short animated loop. Generated using processing IDE.'),
-    new galImgEle('gmms.gif', '0rgan1sm#032', 'MAY 2, 2020', 'Randomly generated organism #032. "Is it really there or is that just my anxiety?"<br><br>Short animated loop. Generated using Python.'),
-    new galImgEle('escaping_the_covid.gif', 'Escaping the COVID', 'APRIL 5, 2020', 'Escaping to a different realm.<br><br>20-second video made from an art-coding project during the COVID-19 pandemic. Generated using processing IDE (some graphics was drawn on Adobe Photoshop, some adopted from Nintendo (thanks!)).')];
+    new galImgEle('gmms.gif', '0rgan1sm#032', 'MAY 2, 2020', 'Randomly generated organism #032. "Is it really there or is that just my anxiety?"<br><br>Short animated loop. Generated using Python.')];
 
 const imageNamesDrawing = [
+    new galImgEle('fd_10_01.jpg', 'Untitled figure drawing #101', 'APRIL 22, 2022', 'Unknown model<br>1 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_10_02.jpg', 'Untitled figure drawing #102', 'APRIL 22, 2022', 'Unknown model<br>2-3 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_10_03.jpg', 'Untitled figure drawing #103', 'APRIL 22, 2022', 'Unknown model<br>5 minute poses.<br><br>Pencil on paper.'),
+    new galImgEle('fd_10_04.jpg', 'Untitled figure drawing #104', 'APRIL 22, 2022', 'Unknown model<br>7 minute pose.<br><br>Pencil on paper.'),
+    new galImgEle('fd_10_05.jpg', 'Untitled figure drawing #105', 'APRIL 22, 2022', 'Unknown model<br>7 minute pose.<br><br>Pencil on paper.'),
+    new galImgEle('fd_10_06.jpg', 'Untitled figure drawing #106', 'APRIL 22, 2022', 'Unknown model<br>10 minute pose.<br><br>Pencil on paper.'),
+    new galImgEle('fd_10_07.jpg', 'Untitled figure drawing #107', 'APRIL 22, 2022', 'Unknown model<br>15 minute poses.<br><br>Pencil on paper.'),
     new galImgEle('fd_09_01.jpg', 'Untitled figure drawing #091', 'APRIL 7, 2022', 'Unknown model<br>15 minute pose.<br><br>Pencil on paper.'),
     new galImgEle('fd_09_02.jpg', 'Untitled figure drawing #092', 'APRIL 7, 2022', 'Unknown model<br>5-10 minute poses.<br><br>Pencil on paper.'),
     new galImgEle('fd_09_03.jpg', 'Untitled figure drawing #093', 'APRIL 7, 2022', 'Unknown model<br>5 minute poses.<br><br>Pencil on paper. Coloring in Adobe Photoshop.'),
