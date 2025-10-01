@@ -39,7 +39,6 @@ HTML_HEADER_START = '''<!DOCTYPE html>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html">Home</a></li>
               <li><a href="projects.html">Academic</a></li>
-              <li><a href="art.html">Art</a></li>
             </ul>
           </div>
         </div>
